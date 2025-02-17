@@ -1,0 +1,17 @@
+@font-face {
+    font-family:bold;
+    src: url(../font/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family:regular;
+    src: url(../font/Lato/Lato-Regular.ttf);
+}
+h1,h2,h3,h4{
+    font-family: bold;
+}
+p{
+    font-family: regular;
+}
+#banner h1{
+    color: aliceblue;
+}
