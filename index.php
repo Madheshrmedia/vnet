@@ -245,8 +245,8 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                    <img src="/image/ots-c1.png" class="card-img-top card-img-top-ots mx-auto"
-                                        alt="...">
+                                    <img src="./image/Ellipse.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
                                         <p class="card-text">Hands-on training opportunities for youth</p>
@@ -256,8 +256,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                    <img src="/image/ots-c1.png" class="card-img-top card-img-top-ots mx-auto"
-                                        alt="...">
+                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
+                                alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
                                         <p class="card-text">Hands-on training opportunities for youth</p>
@@ -267,8 +267,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                    <img src="/image/ots-c1.png" class="card-img-top card-img-top-ots mx-auto"
-                                        alt="...">
+                                <img src="./image/Ellipse2.webp" class="card-img-top card-img-top-ots mx-auto"
+                                alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
                                         <p class="card-text">Hands-on training opportunities for youth</p>
@@ -278,8 +278,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                    <img src="/image/ots-c1.png" class="card-img-top card-img-top-ots mx-auto"
-                                        alt="...">
+                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
+                                alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
                                         <p class="card-text">Hands-on training opportunities for youth</p>

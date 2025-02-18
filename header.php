@@ -39,6 +39,12 @@
         margin-left: 30px;
         border-radius: 5px;
     }
+    @media (max-width: 576px) {
+    .header-logo {
+        width: 100%;
+        padding-bottom:1rem;
+    }
+}
 </style>
 <header class="header header-sticky" id="headerall">
 
