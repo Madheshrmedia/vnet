@@ -7,6 +7,7 @@
     <title>Vnet</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <style>
         /* swiper js code */
 
@@ -151,6 +152,23 @@
             width: 257px !important;
             z-index: 1;
         }
+
+        .ell_text {
+            font-size: 13px;
+        }
+
+        .banner_slider {
+            padding: 0px !important;
+        }
+
+        .satis_client {
+            margin-top: 7rem;
+            margin-bottom: 3rem;
+        }
+
+        .satis_img {
+            height: 350px !important;
+        }
     </style>
 </head>
 
@@ -164,19 +182,17 @@
 
 
     <!-- banner -->
-    <div class="container-fluid">
-        <div class="banner-section m-5">
-            <div class="banner-content">
-                <h1 class="banner-head">
-                    Empowering <br> Careers, Simplifying <br> Processes
-                    <br>
-                    <span class="d-flex btn-session mt-4">
-                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
-                        <a class="my-auto" href="#">Contact Us</a>
-                    </span>
-                </h1>
+    <div class="container-fluid banner_slider">
+
+        <!-- Swiper -->
+        <div class="swiper slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban4.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute" class="img-fluid"></div>
             </div>
-            <img src="./image/banner.webp" alt="best institute" class="img-fluid">
         </div>
     </div>
     <!-- banner end -->
@@ -233,10 +249,6 @@
                 <h1 class="ots-top-head">
                     Services Highlights
                 </h1>
-
-
-
-
             </div>
             <img src="./image/otb-bg.webp" class="img-fluid" alt="">
             <div class="row slider-row">
@@ -249,40 +261,60 @@
                                         alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <p class="card-text ell_text">Implementation of NAPS & NATS</p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
-                                alt="image_Apprenticeship">
+                                    <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
-                                        <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <h5 class="card-title">HR Services</h5>
+                                        <p class="card-text ell_text">Payroll Management, PF & ESI
+                                            Statutory Compliance
+                                        </p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                <img src="./image/Ellipse2.webp" class="card-img-top card-img-top-ots mx-auto"
-                                alt="image_Apprenticeship">
+                                    <img src="./image/Ellipse2.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
-                                        <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <h5 class="card-title">Insurance Services</h5>
+                                        <p class="card-text ell_text">Vehicle, Health & Corporate group insurance
+                                            Workmen Compensation
+                                        </p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
-                                alt="image_Apprenticeship">
+                                    <img src="./image/Ellipse3.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
-                                        <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <h5 class="card-title">Registration & Certifications</h5>
+                                        <p class="card-text ell_text">ISO, SA, GOTS
+                                            Labor License, Factory License & Others
+                                        </p>
+                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ots-card">
+                                    <img src="./image/Ellipse4.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
+                                    <div class="card-body ots-cardbdy">
+                                        <h5 class="card-title">POSH Compliance</h5>
+                                        <p class="card-text ell_text">POSH Training to employees & Management
+                                            ICC Constitution and filing
+
+                                        </p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
@@ -296,6 +328,67 @@
     </div>
     <!-- end Our top services -->
 
+    <!-- satis client -->
+    <div class="container satis_client">
+        <div class="row">
+            <div class="col-md-7">
+
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./image/tes1.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes2.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes3.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes4.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes5.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes6.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes7.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                Satisfied Clients
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                Locations Across India
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                Apprentices Registered
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end satis client -->
+
 
 
 
@@ -306,18 +399,15 @@
     <!-- footer end -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- <script>
-        var swiper = new Swiper(".ots_slider", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            freeMode: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+
+    <script>
+        var swiper = new Swiper(".slider", {
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 6000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
             },
         });
-    </script> -->
-    <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
