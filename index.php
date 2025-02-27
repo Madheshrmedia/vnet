@@ -7,6 +7,7 @@
     <title>Vnet</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <style>
         /* swiper js code */
 
@@ -49,13 +50,11 @@
         /* swiper js code end */
 
         .banner-head {
-            padding-top: 15rem;
-    width: 56%;
-    padding-left: 43px;
-    font-size: 33px;
-    position: absolute;
-    margin-top: 125px;
-    color: white;
+            padding-left: 175px;
+            font-size: 64px;
+            position: absolute;
+            margin-top: 125px;
+            color: white;
         }
 
         .btn-session a {
@@ -153,6 +152,156 @@
             width: 257px !important;
             z-index: 1;
         }
+
+        .ell_text {
+            font-size: 13px;
+        }
+
+        .banner_slider {
+            padding: 0px !important;
+        }
+
+        .satis_client {
+            margin-top: 7rem;
+            margin-bottom: 3rem;
+        }
+
+        .satis_img {
+            height: 350px !important;
+            border-radius: 7px;
+        }
+
+        .count_text {
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .count_img {
+            width: 50px;
+            height: fit-content;
+        }
+
+        .card_brd {
+            border-color: #009688 !important;
+        }
+
+        .partus {
+            color: #002A5C;
+            font-size: 48px;
+        }
+
+        /* Slider */
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
     </style>
 </head>
 
@@ -166,60 +315,19 @@
 
 
     <!-- banner -->
+    <div class="container-fluid banner_slider">
 
-    <div class="container" id="banner">
-    <div class="bannercontent1">
-<button type="button" class="btn btn-secondary whitebutton">Do you know you can utilize your CSR funds for paying stipend of your apprentices?</button><br>
-<button type="button" class="btn btn-secondary whitebutton">Do you want to reduce your employee salary costs?</button><br>
-<button type="button" class="btn btn-secondary whitebutton">Do you want to get exemption of PF & ESI?</button><br>
-</div>
-<div class="bannercontent">
-<h1>Enroll your company under NAPS & NATS Apprenticeship training program and avail 
-Funding support from Central Government
- </h1>
- <button type="button" class="btn btn-secondary" >Get free consultation  +91 - 990 192 0043</button>
-</div>
-
-</div>
-<style>
-    .whitebutton{
-        background-color: #FFFFFF !important;
-        color:#000000 !important;
-        text-align: left;
-        margin: 2rem 0 !important;
-        
-    }
-     #banner {
-        background: url(./image/homebanner.webp) no-repeat;
-        background-size: cover;
-    height: auto;
-    width: 100%; /* Ensures the banner spans the full width */
-   
-    border-radius: 20px;
-    padding-left:3rem;
-    display: grid;
-    align-items: center;
-}
-.bannercontent{
-    color: #FFFF;
-    width: 50%;
-    /* padding-top: 22rem; */
-}
-.bannercontent h1{
-    font-size:32px !important;
-    line-height: 3rem;
-
-}
-.btn-secondary {
-    margin:3rem 0;
-    background-color: #4CAF50;
-    border-radius: 25px;
-    color: #FFFFFF;
-    font-size:24px;
-    font-weight:bold;
-}
-</style>
-    
+        <!-- Swiper -->
+        <div class="swiper slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban4.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute" class="img-fluid"></div>
+            </div>
+        </div>
+    </div>
     <!-- banner end -->
 
 
@@ -274,10 +382,6 @@ Funding support from Central Government
                 <h1 class="ots-top-head">
                     Services Highlights
                 </h1>
-
-
-
-
             </div>
             <img src="./image/otb-bg.webp" class="img-fluid" alt="">
             <div class="row slider-row">
@@ -290,40 +394,60 @@ Funding support from Central Government
                                         alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <p class="card-text ell_text">Implementation of NAPS & NATS</p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
-                                alt="image_Apprenticeship">
+                                    <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
-                                        <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <h5 class="card-title">HR Services</h5>
+                                        <p class="card-text ell_text">Payroll Management, PF & ESI
+                                            Statutory Compliance
+                                        </p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                <img src="./image/Ellipse2.webp" class="card-img-top card-img-top-ots mx-auto"
-                                alt="image_Apprenticeship">
+                                    <img src="./image/Ellipse2.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
-                                        <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <h5 class="card-title">Insurance Services</h5>
+                                        <p class="card-text ell_text">Vehicle, Health & Corporate group insurance
+                                            Workmen Compensation
+                                        </p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card ots-card">
-                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
-                                alt="image_Apprenticeship">
+                                    <img src="./image/Ellipse3.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
                                     <div class="card-body ots-cardbdy">
-                                        <h5 class="card-title">Apprenticeship</h5>
-                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <h5 class="card-title">Registration & Certifications</h5>
+                                        <p class="card-text ell_text">ISO, SA, GOTS
+                                            Labor License, Factory License & Others
+                                        </p>
+                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ots-card">
+                                    <img src="./image/Ellipse4.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
+                                    <div class="card-body ots-cardbdy">
+                                        <h5 class="card-title">POSH Compliance</h5>
+                                        <p class="card-text ell_text">POSH Training to employees & Management
+                                            ICC Constitution and filing
+
+                                        </p>
                                         <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
@@ -336,214 +460,121 @@ Funding support from Central Government
         </div>
     </div>
     <!-- end Our top services -->
-     <style>
-        #imageframe img{
-            width:100%;
-            height: 100%;
-        }
-        .icon-text {
-    display: flex;
-    align-items: center;  
-    gap:23px;
-    justify-content: center;
-}
-        .cardheading{
-            color: #002A5C;
-            font-size:30px;
-            font-weight:700 ;
-        }
-        .card{
-            border: 1px solid #009688 !important;
-            border-radius: 20px !important;
-            padding: 2rem;
-        }
-     #secrow{
-        margin-top:1rem;
-     }
-     </style>
-     <div class="container">
-     <div class="row">
-    <div class="col-md-6 col-sm-12" id="imageframe">
-    <img src="./image/imageframe.webp" alt="imageframe">
-    </div>
-    <div class="col-md-6 col-sm-12">
+
+    <!-- satis client -->
+    <div class="container satis_client">
         <div class="row">
-        <div class="col-md-6 col-sm-12">
-        <div class="card">
-            <div class="icon-text">
-            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#FFFFFF"  class="bi bi-check" viewBox="0 0 16 16" style="background-color: #4CAF50;border-radius: 40px;">
-  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
-</svg>
-<div class="content">
-<p style="margin-bottom: 0;font-size:40px;font-weight:bold">100+ </p> 
-<span style="font-size:15px;font-weight:bold">Satisfied Clients</span>
-</div>
-   
-  
-</div>
+            <div class="col-md-7">
 
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./image/tes1.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes2.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes3.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes4.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes5.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes6.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
+                        <div class="swiper-slide"><img src="./image/tes7.webp" class="img-fluid satis_img"
+                                alt="best-institute">
+                        </div>
 
-                </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-        <div class="card">
-            <div class="icon-text">
-            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#FFFFFF"  class="bi bi-check" viewBox="0 0 16 16" style="background-color: #4CAF50;border-radius: 40px;">
-  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
-</svg>
-<div class="content">
-<p style="margin-bottom: 0;font-size:40px;font-weight:bold">10+ </p> 
-<span style="font-size:15px;font-weight:bold">Locations Across India</span>
-</div>
-</div>
-</div>         
-        </div>
-        </div>
-        <div class="row" id="secrow">
-            <div class="col-md-6 col-sm-12">
-            <div class="card">
-                <div class="icon-text">
-                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#FFFFFF"  class="bi bi-check" viewBox="0 0 16 16" style="background-color: #4CAF50;border-radius: 40px;">
-      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
-    </svg>
-    <div class="content">
-    <p style="margin-bottom: 0;font-size:40px;font-weight:bold">100+ </p> 
-    <span style="font-size:15px;font-weight:bold">Satisfied Clients</span>
-    </div>
-       
-      
-    </div>
-    
-    
                     </div>
+                </div>
             </div>
-    
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card card_brd">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="./image/sas1.png" class="count_img" alt="best-institute">
+                                <div class="count_card ps-3">
+                                    <div id="counter" class="counter count_text"></div>
+                                    Satisfied <br> Clients
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card card_brd">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="./image/sas2.png" class="count_img" alt="best-institute">
+                                <div class="count_card ps-3">
+                                    <div id="counter2" class="counter count_text"></div>
+                                    Locations Across India
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card card_brd">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="./image/sas3.png" class="count_img" alt="best-institute">
+                                <div class="count_card ps-3">
+                                    <div id="counter3" class="counter count_text"></div>
+                                    Apprentices Registered
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-</div>
-     </div>
-
-
-
-    <!-- end Our top services -->
-    <div id="partner" >
-     <div class="container" >
-     <div class="scroll-container">
-        <div class="cardcontainer">
-            <div class="horzcard">
-            <img src="./image/logo1.png" alt="logo1">
-            </div>
-            <div class="horzcard">
-            <img src="./image/logo2.png" alt="logo2">
-            </div>
-            <div class="horzcard">
-            <img src="./image/logo3.png" alt="logo3">
-            </div>
-            <div class="horzcard">
-            <img src="./image/logo4.png" alt="logo4">
-            </div>
-            <div class="horzcard">
-            <img src="./image/logo5.png" alt="logo5">
-            </div>
-    
         </div>
     </div>
-     </div>
-     </div>
-    <style>
-        #partner{
-    border-top: 1px solid #CBCBCB;
-    border-bottom: 1px solid #CBCBCB;
-    margin:2rem 0;
-        }
-        .cardcontainer {
-    display: flex;
-    overflow-x: auto;
-    margin:auto;
-    scroll-behavior: smooth;
-    white-space: nowrap;
-    padding: 20px;
-   
-    width: 100%; /* Ensures container uses the full width of the parent */
-    max-width: 1200px; /* Adjust the maximum width to hold more cards */
-    /* Hide the scrollbar */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-}
-.cardcontainer::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
-}
+    <!-- end satis client -->
 
-.horzcard {
-    flex: 0 0 auto;
-    width: 250px;
-    height: 90px;
-    margin-right: 20px;
-    padding: 10px;
-    background-color: #fafafa;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    cursor: pointer;
-    transition: transform 0.2s;
-    position: relative;
-    overflow: hidden;
-}
-    </style>
-    <script>
-        function navigateToPage(pageUrl) {
-    window.location.href = pageUrl;
-}
+    <!-- partnered frame -->
+    <div class="container">
+        <h3 class="partus">
+            Partnered with
+        </h3>
+    </div>
 
-document.addEventListener('DOMContentLoaded', () => {
-    const container = document.querySelector('.cardcontainer');
 
-    // Define scroll speed and interval
-    const scrollSpeed = 5; // Adjust scroll speed (higher value for faster scrolling)
-    const scrollInterval = 30; // Adjust scroll interval in milliseconds
-    let scrollDirection = 'right'; // Initial scroll direction
 
-    // Function to scroll container automatically
-    function autoScroll() {
-        if (scrollDirection === 'right') {
-            container.scrollLeft += scrollSpeed;
-            // Check if reached end of scroll
-            if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
-                scrollDirection = 'left';
-            }
-        } else if (scrollDirection === 'left') {
-            container.scrollLeft -= scrollSpeed;
-            // Check if scrolled back to start
-            if (container.scrollLeft <= 0) {
-                scrollDirection = 'right';
-            }
-        }
-    }
+    <!-- slider -->
+    <div class="container">
+        <!-- Swiper -->
+        <div class="swiper partner_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn2.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
 
-    // Start auto-scrolling
-    let scrollIntervalId = setInterval(autoScroll, scrollInterval);
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- slider end -->
 
-    // Stop auto-scrolling when mouse enters container
-    container.addEventListener('mouseenter', () => {
-        clearInterval(scrollIntervalId);
-    });
 
-    // Resume auto-scrolling when mouse leaves container
-    container.addEventListener('mouseleave', () => {
-        scrollIntervalId = setInterval(autoScroll, scrollInterval);
-    });
 
-    // Optional: Stop auto-scrolling when clicking on a card
-    const cards = document.querySelectorAll('.horzcard');
-    cards.forEach(card => {
-        card.addEventListener('click', () => {
-            clearInterval(scrollIntervalId);
-        });
-    });
-});
-    </script>
-      <!-- end Our top services -->
     <!-- footer -->
     <?php
     include_once "./footer.php";
@@ -551,9 +582,12 @@ document.addEventListener('DOMContentLoaded', () => {
     <!-- footer end -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- <script>
-        var swiper = new Swiper(".ots_slider", {
-            slidesPerView: 1,
+
+    <script>
+
+        // partner slider
+        var swiper = new Swiper(".partner_slider", {
+            slidesPerView: 5,
             spaceBetween: 30,
             freeMode: true,
             pagination: {
@@ -561,8 +595,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 clickable: true,
             },
         });
-    </script> -->
-    <script>
+
+        // counter
+        const counter = new countUp.CountUp('counter', 100, {
+            duration: 6,
+            suffix: "+"  // Add "+" at the end of the count
+        });
+
+        const counter2 = new countUp.CountUp('counter2', 10, {
+            duration: 8,
+            suffix: "+"  // Add "+" at the end of the count
+        });
+
+        const counter3 = new countUp.CountUp('counter3', 6000, {
+            duration: 4,
+            suffix: "+"  // Add "+" at the end of the count
+        });
+
+        if (!counter.error) counter.start();
+        if (!counter2.error) counter2.start();
+        if (!counter3.error) counter3.start();
+
+        var swiper = new Swiper(".slider", {
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 6000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
+            },
+        });
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,

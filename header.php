@@ -1,10 +1,8 @@
+<!-- font awesome -->
+
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- font awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-
 
 <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -39,12 +37,13 @@
         margin-left: 30px;
         border-radius: 5px;
     }
+
     @media (max-width: 576px) {
-    .header-logo {
-        width: 100%;
-        padding-bottom:1rem;
+        .header-logo {
+            width: 100%;
+            padding-bottom: 1rem;
+        }
     }
-}
 </style>
 <header class="header header-sticky" id="headerall">
 
@@ -66,7 +65,7 @@
                         <a class="nav-link" href="./index.php">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./service.php">About Us</a>
+                        <a class="nav-link" href="./about.php">About Us</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="./product.php">Services</a>
