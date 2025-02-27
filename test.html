@@ -1,400 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vnet</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
-         #banner {
-    background: url(./image/service.webp) no-repeat center center;
-    background-size: cover; /* Ensures the image scales to cover the container */
-    height: 325px;
-    width: 100%; /* Ensures the banner spans the full width */
-    margin-top:2rem;
-    border-radius: 20px;
-    padding-left:5rem;
-    display: grid;
-    align-items: center;
-    color:#FFFFFF;
-}
-.breadcrumb-item a{
-    color: #FFFFFF;
-}
-.breadcrumb-item.active {
-    color: #FFFFFF !important;
-}
-h2{
-    font-size:52px !important;
-    color:#002A5C !important;
-    margin:1rem 0 !important;
-}
-h4{
-    font-size: 2.5rem;
-    color:#002A5C !important;
-    margin:1rem 0 !important;
-}
-h5{
-    font-size: 2.5rem;
-    color:#002A5C !important;
-    margin:1rem 0 !important;
-}
-p{
-    font-size: 17px;
-    color:#5A5A5A !important;
-}
-.fa-check:before {
-    margin-right: 5px;
-    border-radius: 5px;
-    padding: 3px;
-    background-color: #4CAF50;
-    color: #FFFFFF;
-    content: "\f00c";
-}
-@media (max-width: 768px) {
-    h2{
-    font-size:32px !important;
-    
-}
-h4{
-    font-size: 28px;
-    
-}
-h5{
-    font-size: 23px;
-   
-}
-p{
-    font-size: 15px;
-   
-}
-}
-@media (min-width: 576px) {
-        #banner {
-        max-width: 663px;
-    }
-}
+        /* swiper js code */
 
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* swiper js code end */
+
+        .banner-head {
+            padding-top: 15rem;
+    width: 56%;
+    padding-left: 43px;
+    font-size: 33px;
+    position: absolute;
+    margin-top: 125px;
+    color: white;
+        }
+
+        .btn-session a {
+            font-size: 16px;
+            margin-left: 25px;
+            font-weight: 300;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn-outline-light {
+            border-radius: 20px !important;
+        }
+
+        .ab-head {
+            text-transform: uppercase;
+            color: #034833;
+        }
+
+        .ab-main span {
+            color: #009688;
+            font-weight: bold;
+        }
+
+        .ab-main {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .hab-img {
+            width: 37px !important;
+            height: fit-content !important;
+        }
+
+        .hab-cont {
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        .hab-cont span {
+            font-weight: 700;
+        }
+
+        .hab-card {
+            padding-left: 30px;
+        }
+
+        .btn-outline-dark {
+            --bs-btn-border-color: #4CAF50 !important;
+            color: #4CAF50 !important;
+            --bs-btn-hover-border-color: #4CAF50 !important;
+            --bs-btn-hover-bg: #4CAF50 !important;
+
+        }
+
+        .btn-outline-dark:hover {
+            color: white !important;
+        }
+
+        .banner-cont-ots {
+            padding-left: 125px;
+
+            position: absolute;
+            margin-top: 75px;
+            color: white;
+        }
+
+        .slider-row {
+            position: relative !important;
+            margin-top: -510px !important;
+        }
+
+        .ots-top-cont {
+            text-transform: uppercase;
+        }
+
+        .ots-card {
+            background: transparent !important;
+            border: transparent !important;
+            text-align: center;
+        }
+
+        .ots-cardbdy {
+            background: #4CAF50 !important;
+            margin-top: -110px !important;
+            padding-top: 150px !important;
+            color: white !important;
+            padding-left: 25px !important;
+            padding-right: 25px !important;
+            padding-bottom: 50px !important;
+            border-radius: 15px !important;
+        }
+
+        .card-img-top-ots {
+            width: 257px !important;
+            z-index: 1;
+        }
     </style>
 </head>
+
 <body>
-       <!-- header -->
-       <?php
+
+    <!-- header -->
+    <?php
     include_once "./header.php";
     ?>
     <!-- header end -->
+
+
+    <!-- banner -->
+
     <div class="container" id="banner">
-<div class="bannercontent">
-<h1>HR Services & Recruitment </h1>
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">HR Services & Recruitment</li>
-  </ol>
-</nav>
+    <div class="bannercontent1">
+<button type="button" class="btn btn-secondary whitebutton">Do you know you can utilize your CSR funds for paying stipend of your apprentices?</button><br>
+<button type="button" class="btn btn-secondary whitebutton">Do you want to reduce your employee salary costs?</button><br>
+<button type="button" class="btn btn-secondary whitebutton">Do you want to get exemption of PF & ESI?</button><br>
 </div>
-     </div>
-      <!-- frame 1 -->  
-      <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-6" >
-                <div class="left-column">
-                    <div class="leftcontent">
-            
-                
-                <img src="./image/serviceban.webp" alt="groupphoto" class="image1">
-               
-            <h2 id="apprenticeship">What is Apprenticeship?</h2>
-            <p>Apprenticeship is a structured training program that combines classroom instruction with on-the-job learning. Designed to bridge the gap between education and employment, apprenticeships equip individuals with hands-on experience and industry-relevant skills, making them job-ready.</p>
-            <h4>Why Apprenticeships Matter:</h4>
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Practical Learning:</h5>
-            <p>Gain real-world experience while learning from industry experts.</p>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                <h5><i class="fa fa-check"></i>Earn While You Learn:</h5>
-                <p>Apprentices receive a stipend during their training.</p>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Career Growth:</h5>
-            <p>Increased employability and career opportunities post-training.</p>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                <h5><i class="fa fa-check"></i>Skill Certification:</h5>
-                <p>Official recognition of skills, enhancing professional credibility.</p>
-            </div>
-            </div>
-                </div>
-                <div class="leftcontent">
-            
-                
-            <img src="./image/serviceban1.webp" alt="groupphoto" class="image">
-            
-            <h2 id="naps">National Apprenticeship Promotion Scheme (NAPS)</h2>
-            <p>The National Apprenticeship Promotion Scheme (NAPS) is an initiative by the Government of India aimed at promoting apprenticeship training and boosting skill development.</p>
-            <h4>Key Features of NAPS:</h4>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Financial Incentives:</h5>
-            <p>Employers receive subsidies to cover training costs.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>On-the-Job Training:</h5>
-            <p>Practical, hands-on experience in real work environments.</p>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Wide Coverage:</h5>
-            <p>Open to industries across sectors, ensuring diverse opportunities.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Skill Certification:</h5>
-            <p>Enhances workforce productivity and reduces skill gaps.</p>
-            </div>
-            </div>
-            <h4>Benefits of NAPS for Employers:</h4>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Cost-Effective Training:</h5>
-            <p>Up to 25% reimbursement on the stipend (subject to a limit of ₹1,500 per apprentice per month).</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Trained Workforce:</h5>
-            <p>Develop a skilled workforce tailored to industry needs.</p>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Government Support:</h5>
-            <p>Assistance in implementing apprenticeship programs.</p>
-            </div>
-            </div>
-            <h4>Benefits of NAPS for Apprentices:</h4>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Learning Opportunities:</h5>
-            <p>Access to industry-specific skills and training.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Financial Support: </h5>
-            <p>Receive stipends during training.</p>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Future Prospects: </h5>
-            <p>Improved job opportunities and career advancement.</p>
-            </div>
-            </div>
-            </div>
-            <!-- ------- -->
-            <div class="leftcontent">
-            
-                
-            <img src="./image/serviceban2.webp" alt="groupphoto" class="image">
-            
-            <h2 id="nats">National Apprenticeship Training Scheme (NATS)</h2>
-            <p>The National Apprenticeship Training Scheme (NATS) is a one-year skill enhancement program under the Ministry of Education. It focuses on providing technical graduates and diploma holders with practical training in their respective fields.</p>
-            <h4>Key Features of NATS:</h4>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Structured Training: </h5>
-            <p>Offers technical and professional training aligned with academic qualifications.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Diverse Opportunities:</h5>
-            <p>Covers a wide range of industries, including engineering, technology, and more.</p>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Certification:</h5>
-            <p>Apprentices receive government-recognized certification after successful completion.</p>
-            </div>
-            
-            </div>
-            <h4>Benefits of NATS for Trainees:</h4>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Real-World Exposure:</h5>
-            <p>Practical experience in technical and professional domains.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Certification Advantage:</h5>
-            <p>Industry-recognized certification enhances employability.</p>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Career Pathway:</h5>
-            <p>Increases chances of securing full-time roles in reputed companies.</p>
-            </div>
-            </div>
-            <h4>Benefits of NATS for Employers:</h4>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Workforce Development:</h5>
-            <p>Train candidates in specific skill areas.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Cost Savings: </h5>
-            <p>Utilize government-supported training schemes.</p>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-md-6 col-sm-6">
-            <h5><i class="fa fa-check"></i>Retention:</h5>
-            <p>Identify and retain talented apprentices for long-term roles.</p>
-            </div>
-            </div>
-            </div>
-             <!-- ------- -->
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="right-column">
-                    <div class="box1">
-                  <a href="#apprenticeship">
-                  <div class="horzcard1">
-                         <h4>What is Apprenticeship? </h4>
-                          </div>
-                  </a>  
-                  <a href="#naps">
-                  <div class="horzcard1">
-                         <h4>NAPS </h4>
-                          </div>
-                  </a> 
-                  <a href="#nats">
-                  <div class="horzcard1">
-                         <h4>NATS</h4>
-                          </div>
-                  </a> 
-                    </div>
-                    <div class="box2">
-                    <img src="./image/phone.png" alt="groupphoto">
-                    <p>Get a Free Consultation</p>
-                    <p>+91 98765 43210</p>
-                    </div>
-                  </div>
-            </div>
-        </div>
-  
-   
+<div class="bannercontent">
+<h1>Enroll your company under NAPS & NATS Apprenticeship training program and avail 
+Funding support from Central Government
+ </h1>
+ <button type="button" class="btn btn-secondary" >Get free consultation  +91 - 990 192 0043</button>
+</div>
+
 </div>
 <style>
-    .box2{
-        border-radius: 10px;
-    text-align: center;
+    .whitebutton{
+        background-color: #FFFFFF !important;
+        color:#000000 !important;
+        text-align: left;
+        margin: 2rem 0 !important;
+        
+    }
+     #banner {
+        background: url(./image/homebanner.webp) no-repeat;
+        background-size: cover;
+    height: auto;
+    width: 100%; /* Ensures the banner spans the full width */
+   
+    border-radius: 20px;
+    padding-left:3rem;
+    display: grid;
+    align-items: center;
+}
+.bannercontent{
+    color: #FFFF;
+    width: 50%;
+    /* padding-top: 22rem; */
+}
+.bannercontent h1{
+    font-size:32px !important;
+    line-height: 3rem;
+
+}
+.btn-secondary {
+    margin:3rem 0;
     background-color: #4CAF50;
-    padding: 2rem 0;
-    margin-top: 1rem;
-    }
-    .box2 p{
-        font-weight: 600;
-    color: #FFFFFF !important;
-    font-size: 21px !important;
-    }
-    .box2 img{
-        margin-bottom: 13px;
-    }
-.container {
-    display: flex;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-    gap: 20px; /* Adds spacing between columns */
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size:24px;
+    font-weight:bold;
 }
-
-.left-column {
-    flex: 1; /* Takes available space */
-    padding: 20px;
-    width:100%;
-}
-.left-column img{
-    width: 100%;
-}
-.leftcontent:not(:first-of-type) img{
-    margin-top:3rem;
-}
-.right-column {
-    width: 100%;
-    position: sticky;
-    top: 0; /* Sticks to the top */
-    padding: 20px;
-    height: 100vh; /* Covers full viewport height */
-    overflow-y: auto; /* Enables scrolling if content overflows */
-}
-.image1{
-    width:100%;
-}
-.horzcard1{
-    background-color: #FFFFFF;
-    padding:10px 18px;
-    border: 1px solid #ddd;
-    border-radius:38px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    text-align: left;
-    margin-top:1rem;
-}
-.horzcard1:hover {
-    transform: scale(1.05);
-}
-.horzcard1 h4{
-    font-size:20px;
-}
-a{
-    text-decoration: none;
-}
-.box1{
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: #F1F5EB;
-}
-/* Responsive Design */
-@media (max-width: 576px) {
-    .container {
-        flex-direction: column; /* Stack columns on smaller screens */
-    }
-    
-    .right-column {
-        width: 100%; /* Full width on small screens */
-        height: auto; /* Adjust height */
-        position: relative; /* Remove sticky on mobile */
-    }
-}
-
-
 </style>
- <!-- frame 1 -->  
-                <!-- frame 4 -->
-                <div class="greenframe">
-<div class="row">
-    <div class="col-md-6 col-sm-6">
-        <h3>Need Our support</h3>
-    </div>
-    <div class="col-md-6 col-sm-6">
-        <h3><i class="fas fa-phone-alt me-3"></i>+91 98765 43210</h3>
-    </div>
-</div>
-                    </div>
-                    <style>
-                        .greenframe{
-                            background-color: #4CAF50;
-                            color:#FFFFFF;
-                            text-align: center;
-                            padding:2rem 0;
-                            overflow-x:hidden;
-                           
-                        }
+    
+    <!-- banner end -->
 
-                    </style>
-                        <!-- frame 4 -->
-      <!-- footer -->
+
+
+    <!-- aboutus overview -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto  my-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./image/hab.webp" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-md-7">
+                        <p class="ab-head">
+                            Why Choose Us
+                        </p>
+                        <h1 class="ab-main">
+                            Where Wanderlust Meets <br>
+                            <span>Dream Destinations</span>
+                        </h1>
+                        <p class="ab-content mt-3">
+                            We are a leading consultancy offering a comprehensive range of <br> services including
+                            education
+                            guidance, HR compliance, certifications,<br> and skill development.
+                        </p>
+
+                        <div class=" d-flex">
+                            <div class="hab-btn">
+                                <button type="button" class="btn btn-outline-dark">Learn More &#8594;</button>
+                            </div>
+                            <!-- <a class="my-auto" href="#">Contact Us</a> -->
+                            <div class="hab-card d-flex">
+                                <img src="./image/hab-i.png" class="hab-img" alt="">
+                                <p class="hab-cont">Need help? <br><span>(808) 555-0111</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end aboutus overview -->
+
+    <!-- Our top servicesur  -->
+    <div class="container-fluid">
+        <div class="banner-section-ots m-5">
+            <div class="banner-cont-ots">
+                <p class="ots-top-cont">
+                    Our top services
+                </p>
+                <h1 class="ots-top-head">
+                    Services Highlights
+                </h1>
+
+
+
+
+            </div>
+            <img src="./image/otb-bg.webp" class="img-fluid" alt="">
+            <div class="row slider-row">
+                <div class="col-md-10 mx-auto">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card ots-card">
+                                    <img src="./image/Ellipse.webp" class="card-img-top card-img-top-ots mx-auto"
+                                        alt="image_Apprenticeship">
+                                    <div class="card-body ots-cardbdy">
+                                        <h5 class="card-title">Apprenticeship</h5>
+                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ots-card">
+                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
+                                alt="image_Apprenticeship">
+                                    <div class="card-body ots-cardbdy">
+                                        <h5 class="card-title">Apprenticeship</h5>
+                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ots-card">
+                                <img src="./image/Ellipse2.webp" class="card-img-top card-img-top-ots mx-auto"
+                                alt="image_Apprenticeship">
+                                    <div class="card-body ots-cardbdy">
+                                        <h5 class="card-title">Apprenticeship</h5>
+                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ots-card">
+                                <img src="./image/Ellipse1.webp" class="card-img-top card-img-top-ots mx-auto"
+                                alt="image_Apprenticeship">
+                                    <div class="card-body ots-cardbdy">
+                                        <h5 class="card-title">Apprenticeship</h5>
+                                        <p class="card-text">Hands-on training opportunities for youth</p>
+                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Our top services -->
+     <style>
+        #imageframe img{
+            width:100%;
+        }
+        .icon-text {
+    display: flex;
+    align-items: center;  
+    gap:23px;
+    justify-content: center;
+}
+        .cardheading{
+            color: #002A5C;
+            font-size:30px;
+            font-weight:700 ;
+        }
+        .card{
+            border: 1px solid #009688 !important;
+            border-radius: 20px !important;
+            padding: 2rem;
+        }
+     
+     </style>
+     <div class="container">
+     <div class="row">
+    <div class="col-md-6 col-sm-12" id="imageframe">
+    <img src="./image/imageframe.webp" alt="imageframe">
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <div class="row">
+        <div class="col-md-6 col-sm-12">
+        <div class="card">
+            <div class="icon-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#FFFFFF"  class="bi bi-check" viewBox="0 0 16 16" style="background-color: #4CAF50;border-radius: 40px;">
+  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+</svg>
+<div class="content">
+<p style="margin-bottom: 0;font-size:40px;font-weight:bold">100+ </p> 
+<span style="font-size:15px;font-weight:bold">Satisfied Clients</span>
+</div>
+   
+  
+</div>
+
+
+                </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+        <div class="card">
+            <div class="icon-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#FFFFFF"  class="bi bi-check" viewBox="0 0 16 16" style="background-color: #4CAF50;border-radius: 40px;">
+  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+</svg>
+<div class="content">
+<p style="margin-bottom: 0;font-size:40px;font-weight:bold">10+ </p> 
+<span style="font-size:15px;font-weight:bold">Locations Across India</span>
+</div>
+</div>
+</div>         
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+            <div class="card">
+                <div class="icon-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#FFFFFF"  class="bi bi-check" viewBox="0 0 16 16" style="background-color: #4CAF50;border-radius: 40px;">
+      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+    </svg>
+    <div class="content">
+    <p style="margin-bottom: 0;font-size:40px;font-weight:bold">100+ </p> 
+    <span style="font-size:15px;font-weight:bold">Satisfied Clients</span>
+    </div>
+       
+      
+    </div>
+    
+    
+                    </div>
+            </div>
+    
+            </div>
+        </div>
+</div>
+     </div>
+
+
+
+    <!-- end Our top services -->
+    <!-- footer -->
     <?php
     include_once "./footer.php";
     ?>
+    <!-- footer end -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script>
+        var swiper = new Swiper(".ots_slider", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script> -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 3000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // When the viewport is 768px or larger
+                768: {
+                    slidesPerView: 3, // Show 3 slides per view
+                },
+                // When the viewport is 576px or larger
+                576: {
+                    slidesPerView: 2, // Show 2 slides per view
+                },
+                // When the viewport is less than 576px (mobile devices)
+                0: {
+                    slidesPerView: 1, // Show 1 slide per view on mobile
+                }
+            }
+        });
+    </script>
 </body>
+
 </html>
