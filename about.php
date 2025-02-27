@@ -197,8 +197,11 @@
 .scroll-btn.right {
     right: 0;
 }
-.paddgreencard,#founder,.coreframe{
+.paddgreencard,.coreframe{
     margin-top: 3rem;
+}
+#founder{
+    margin: 3rem auto;
 }
 #founder img{
     width: 100%;
@@ -293,7 +296,7 @@
         <div class="frame1content" id="frame2">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-            <img src="./image/groupphoto.webp" alt="groupphoto">
+            <img src="./image/certificate.webp" alt="certificate">
             </div>
             <div class="col-md-6 col-sm-6">
 <h5 style="text-transform: uppercase;">About Us</h5>
@@ -473,7 +476,73 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
          <!-- frame 5 -->
           <div class="container" id="founder">
-           <div class="row">
+          <h5 style="text-transform: uppercase;">Meet Our Management</h5>
+          <h2 style="width:80%"><span>Leaders Driving Excellence</span> at Vnet Professional Services</h2>
+          <swiper-container class="mySwiper" navigation="true">
+    <swiper-slide>
+        <div class="row" style="width:100%">
+            <div class="col-md-6 col-sm-12" style="padding-right:0">
+            <img src="./image/slideimg1.webp" alt="slideimg1">
+            </div>
+            <div class="col-md-6 col-sm-12" id="centerdiv">
+<div class="slidecontent">
+    <h5>Suresh Kumar S- Director</h5>
+    <p>B.E, MSW holder with 21 years of experience. Started his career in Telecommunication sector working in 
+        major MNCs namely Nokia Siemens and Ericsson, shifted his interest in providing consultation in the 
+        Skill Development industry and provided consultations for United Nations Development Program (UNDP), 
+        CII (Confederation of Indian Industries), Electronics City Industries Association (ELCIA) and Skill 
+        development Entrepreneurship & Livelihood (SDEL), Government of Karnataka. Currently leading the organization 
+        as Director handling Business development, HR Compliance and Industry Relations.</p>
+</div>
+            </div>
+        </div>
+    </swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+    <swiper-slide>Slide 4</swiper-slide>
+    <swiper-slide>Slide 5</swiper-slide>
+    <swiper-slide>Slide 6</swiper-slide>
+    <swiper-slide>Slide 7</swiper-slide>
+    <swiper-slide>Slide 8</swiper-slide>
+    <swiper-slide>Slide 9</swiper-slide>
+  </swiper-container>
+  <style>
+    #centerdiv{
+        display: flex;
+    align-items: center;
+    padding-left:0;
+    }
+   
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    swiper-container{
+        margin:4rem auto;
+    }
+    .slidecontent{
+        text-align: left;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 3rem;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .slidecontent p{
+        font-size: 15px;
+    }
+  </style>
+           <!-- <div class="row">
            <div class="col-md-4 col-sm-6">
            <img src="./image/photo.webp" alt="photo">
            </div>
@@ -517,7 +586,7 @@ margin-top:1rem;
 </div>
 </div>
 </div>
-           </div>
+           </div> -->
           </div>
               <!-- frame 4 -->
                <div class="container">
@@ -588,6 +657,7 @@ margin-top:1rem;
     ?>
     <!-- footer end --> 
       <!-- Bootstrap JavaScript Libraries -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
       <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
