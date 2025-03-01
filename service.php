@@ -32,7 +32,7 @@ h2{
 h4{
     font-size: 2.5rem;
     color:#002A5C !important;
-    margin:1rem 0 !important;
+    margin:2rem 0 !important;
 }
 h5{
     font-size: 2.5rem;
@@ -91,169 +91,246 @@ p{
     <!-- header end -->
     <div class="container" id="banner">
 <div class="bannercontent">
-<h1>HR Services & Recruitment </h1>
+<h1>Apprenticeship</h1>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">HR Services & Recruitment</li>
+    <li class="breadcrumb-item active" aria-current="page">Apprenticeship</li>
   </ol>
 </nav>
 </div>
      </div>
       <!-- frame 1 -->  
-      <div class="container">
+      <div class="container" id="apprcontainer">
     <div class="left-column">
         <div class="leftcontent">
 
     
-    <img src="./image/serviceban.webp" alt="groupphoto" class="image1">
+    <img src="./image/apprc1.webp" alt="groupphoto" class="image1">
    
 <h2 id="apprenticeship">What is Apprenticeship?</h2>
-<p>Apprenticeship is a structured training program that combines classroom instruction with on-the-job learning. Designed to bridge the gap between education and employment, apprenticeships equip individuals with hands-on experience and industry-relevant skills, making them job-ready.</p>
-<h4>Why Apprenticeships Matter:</h4>
+<p>An <span style="font-weight:bold">apprenticeship</span> is a structured program that combines practical, hands-on work experience 
+with formal education and training. It is designed to help individuals develop the skills, knowledge, and competencies required for a specific trade, 
+profession, or career path. Apprenticeships are often available to individuals of various ages and educational backgrounds, making them a 
+flexible option for career development or a pathway to switch industries. The <span style="font-weight:bold">Apprenticeship Act, 1961</span> is an Indian law that provides the framework for the regulation and promotion of apprenticeship training in the country. The Apprenticeship Act, 1961, has been amended several times to align with changing industrial needs. This Act has been instrumental 
+    in creating a skilled workforce for India’s industrial and economic development.</p>
+<h4>Key Features of an Apprenticeship:</h4>
 <div class="row">
     <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Practical Learning:</h5>
-<p>Gain real-world experience while learning from industry experts.</p>
+<h5><i class="fa fa-check"></i>On-the-Job Training: </h5>
+<p>Apprentices work under the guidance of experienced professionals to gain practical skills in a real-world environment.</p>
     </div>
     <div class="col-md-6 col-sm-6">
-    <h5><i class="fa fa-check"></i>Earn While You Learn:</h5>
-    <p>Apprentices receive a stipend during their training.</p>
+    <h5><i class="fa fa-check"></i>Earn While You Learn: </h5>
+    <p>Apprenticeships often provide a salary or stipend, allowing participants to earn money while acquiring skills.</p>
 </div>
 </div>
 <div class="row">
     <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Career Growth:</h5>
-<p>Increased employability and career opportunities post-training.</p>
+<h5><i class="fa fa-check"></i>Certification:</h5>
+<p>Upon completion, apprentices receive a certification or qualification that demonstrates their expertise, which is often nationally or internationally recognized.</p>
     </div>
     <div class="col-md-6 col-sm-6">
-    <h5><i class="fa fa-check"></i>Skill Certification:</h5>
-    <p>Official recognition of skills, enhancing professional credibility.</p>
+    <h5><i class="fa fa-check"></i>Mentorship:</h5>
+    <p>Apprentices benefit from close mentorship by industry professionals, which helps them navigate the challenges of the trade.</p>
 </div>
+</div>
+<h4>Establishment Eligibility:</h4>
+<div class="row">
+    <div class="col-md-10 col-sm-12">
+    <img src="./image/table2.webp" alt="tableimg">
+   </div>
+
+</div>
+<h4>Minimum Prescribed Stipend:</h4>
+<div class="row">
+    <div class="col-md-8 col-sm-12">
+    <img src="./image/table1.webp" alt="tableimg">
+   </div>
+
 </div>
     </div>
     <div class="leftcontent">
 
     
-<img src="./image/serviceban1.webp" alt="groupphoto" class="image">
+<img src="./image/apprc2.webp" alt="groupphoto" class="image">
 
 <h2 id="naps">National Apprenticeship Promotion Scheme (NAPS)</h2>
-<p>The National Apprenticeship Promotion Scheme (NAPS) is an initiative by the Government of India aimed at promoting apprenticeship training and boosting skill development.</p>
-<h4>Key Features of NAPS:</h4>
+<p> <span style="font-weight:bold">NAPS</span> stands for the <span style="font-weight:bold">National Apprenticeship Promotion Scheme</span>; a program launched by the Government of 
+    India under Ministry of Skill Development and Entrepreneurship on 2016 to promote apprenticeship training, 
+    incentivize employers to engage apprentices by sharing stipend costs and increase the engagement of employers 
+    in creating skilled workers. It is part of the government’s broader 
+    initiative to enhance employability and skill development in line with the Skill India Mission.</p>
+<h4>Objectives of NAPS:</h4>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Financial Incentives:</h5>
-<p>Employers receive subsidies to cover training costs.</p>
+<h5><i class="fa fa-check"></i>Encourage Employers:</h5>
+<p>To incentivize employers to hire apprentices by sharing a portion of the stipend cost.</p>
 </div>
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>On-the-Job Training:</h5>
-<p>Practical, hands-on experience in real work environments.</p>
+<h5><i class="fa fa-check"></i>Increase Apprenticeship Opportunities: </h5>
+<p>To make apprenticeship a mainstream training model across industries.</p>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Wide Coverage:</h5>
-<p>Open to industries across sectors, ensuring diverse opportunities.</p>
+<h5><i class="fa fa-check"></i>Bridge the Skill Gap: </h5>
+<p>To align workforce skills with the needs of the industry and improve job readiness.</p>
 </div>
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Skill Certification:</h5>
+<h5><i class="fa fa-check"></i>Empower Youth: </h5>
 <p>Enhances workforce productivity and reduces skill gaps.</p>
 </div>
 </div>
-<h4>Benefits of NAPS for Employers:</h4>
+<h4>Apprentices Eligibility:</h4>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Cost-Effective Training:</h5>
-<p>Up to 25% reimbursement on the stipend (subject to a limit of ₹1,500 per apprentice per month).</p>
+<h5><i class="fa fa-check"></i>Minimum eligibility of 14 years for Non-Hazardous Industries and 18 years for Hazardous Industries.</h5>
+
 </div>
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Trained Workforce:</h5>
-<p>Develop a skilled workforce tailored to industry needs.</p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Government Support:</h5>
-<p>Assistance in implementing apprenticeship programs.</p>
-</div>
-</div>
-<h4>Benefits of NAPS for Apprentices:</h4>
-<div class="row">
-<div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Learning Opportunities:</h5>
-<p>Access to industry-specific skills and training.</p>
-</div>
-<div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Financial Support: </h5>
-<p>Receive stipends during training.</p>
+<h5><i class="fa fa-check"></i>Maximum age limits up to 35 years</h5>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Future Prospects: </h5>
-<p>Improved job opportunities and career advancement.</p>
+<h5><i class="fa fa-check"></i>Educational qualification from class 5th to Graduate</h5>
 </div>
+</div>
+<h4>Establishments Benefits:</h4>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Exemption of Labor Laws</h5>
+</div>
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Utilization of CSR Funds </h5>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Financial support of 25% of minimum prescribed stipend or 1500 per month per apprentice for a duration of 1 year </h5>
+</div>
+<div class="col-md-6 col-sm-6">
+    <h5><i class="fa fa-check"></i>Providing PF/ESI and Minimum wages is not mandatory</h5>
+</div>
+</div>
+<h4>Apprentices Benefits:</h4>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Earn while learning through a structured stipend.</h5>
+</div>
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Gain industry-relevant skills and practical experience.</h5>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Improved employability and career prospects.</h5>
+</div>
+
 </div>
 </div>
 <!-- ------- -->
 <div class="leftcontent">
 
     
-<img src="./image/serviceban2.webp" alt="groupphoto" class="image">
+<img src="./image/apprc3.webp" alt="groupphoto" class="image">
 
 <h2 id="nats">National Apprenticeship Training Scheme (NATS)</h2>
-<p>The National Apprenticeship Training Scheme (NATS) is a one-year skill enhancement program under the Ministry of Education. It focuses on providing technical graduates and diploma holders with practical training in their respective fields.</p>
-<h4>Key Features of NATS:</h4>
+<p><span style="font-weight:bold">NATS</span> stands for the <span style="font-weight:bold"> National Apprenticeship Training Scheme,</span> was implemented in 1968 by the <span style="font-weight:bold">Government 
+    of India</span> under the <span style="font-weight:bold"> Apprenticeship Act, 1961.</span> It is designed to provide technical graduates and diploma 
+    holders with practical training in their respective fields, bridging the gap between formal education and 
+    the demands of the workforce. Financial support under the <span style="font-weight:bold">National Apprenticeship Training Scheme (NATS) 
+    began in 2016</span> as part of the Indian government's initiative to incentivize both students and employers to 
+    participate in apprenticeship training. This was a significant step towards making the scheme more attractive 
+    and impactful, aligning with the broader <span style="font-weight:bold">Skill India Mission.</span></p>
+<h4>Objectives of NATS:</h4>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Structured Training: </h5>
-<p>Offers technical and professional training aligned with academic qualifications.</p>
+<h5><i class="fa fa-check"></i>Skill Enhancement:  </h5>
+<p>To improve the employability of graduates and diploma holders by providing hands-on training.</p>
 </div>
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Diverse Opportunities:</h5>
-<p>Covers a wide range of industries, including engineering, technology, and more.</p>
+<h5><i class="fa fa-check"></i>Industry Readiness: </h5>
+<p>To ensure that individuals entering the workforce are equipped with practical skills aligned with industry requirements.</p>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Certification:</h5>
-<p>Apprentices receive government-recognized certification after successful completion.</p>
+<h5><i class="fa fa-check"></i>Public-Private Partnership: </h5>
+<p>To encourage collaboration between educational institutions, industries, and the government.</p>
 </div>
 
 </div>
-<h4>Benefits of NATS for Trainees:</h4>
+<h4>Apprentices Eligibility:</h4>
+
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Real-World Exposure:</h5>
-<p>Practical experience in technical and professional domains.</p>
+<h5><i class="fa fa-check"></i>Diploma and Graduates</h5>
 </div>
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Certification Advantage:</h5>
-<p>Industry-recognized certification enhances employability.</p>
+<h5><i class="fa fa-check"></i>Should be within 5 years of completion at the time of registration</h5>
 </div>
 </div>
+
+<h4>Establishments Benefits:</h4>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Career Pathway:</h5>
-<p>Increases chances of securing full-time roles in reputed companies.</p>
-</div>
-</div>
-<h4>Benefits of NATS for Employers:</h4>
-<div class="row">
-<div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Workforce Development:</h5>
-<p>Train candidates in specific skill areas.</p>
+<h5><i class="fa fa-check"></i>Exemption of Labor Laws</h5>
 </div>
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Cost Savings: </h5>
-<p>Utilize government-supported training schemes.</p>
+<h5><i class="fa fa-check"></i>Utilization of CSR Funds</h5>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6 col-sm-6">
-<h5><i class="fa fa-check"></i>Retention:</h5>
-<p>Identify and retain talented apprentices for long-term roles.</p>
+<h5><i class="fa fa-check"></i>Financial support of 50% of minimum prescribed stipend per month per apprentice for a duration of 1 year</h5>
 </div>
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Providing PF/ESI and Minimum wages is not mandatory</h5>
+</div>
+</div>
+<h4>Apprentices Benefits:</h4>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Gain industry-specific skills and practical experience.</h5>
+</div>
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Receive financial support during the training period.</h5>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<h5><i class="fa fa-check"></i>Improve employability and career prospects.  </h5>
+</div>
+
+</div>
+<h2 id="nats">Download reference materials here</h2>
+<div class="row">
+<div class="col-md-4 col-sm-6">
+<a href="./image/sample.pdf" download>
+<img src="./image/faq.webp" alt="faq">
+</a>
+
+</div>
+<div class="col-md-4 col-sm-6">
+<a href="./image/sample.pdf" download>
+<img src="./image/rule.webp" alt="faq">
+</a>
+</div>
+<div class="col-md-4 col-sm-6">
+<a href="./image/sample.pdf" download>
+<img src="./image/csr.webp" alt="csr">
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 col-sm-6">
+<a href="./image/sample.pdf" download>
+<img src="./image/dbt.webp" alt="dbt">
+</a>
+</div>
+
 </div>
 </div>
  <!-- ------- -->
@@ -284,6 +361,10 @@ p{
     </div>
 </div>
 <style>
+    #apprcontainer{
+        margin:2rem auto;
+    }
+    
     .box2{
         border-radius: 10px;
     text-align: center;
@@ -294,7 +375,7 @@ p{
     .box2 p{
         font-weight: 600;
     color: #FFFFFF !important;
-    font-size: 21px !important;
+    font-size: 27px !important;
     }
     .box2 img{
         margin-bottom: 13px;
@@ -317,11 +398,11 @@ p{
     margin-top:3rem;
 }
 .right-column {
-    width: 300px;
+    width: 370px;
     position: sticky;
     top: 0; /* Sticks to the top */
     padding: 20px;
-    height: 100vh; /* Covers full viewport height */
+    height: 106vh; /* Covers full viewport height */
     overflow-y: auto; /* Enables scrolling if content overflows */
 }
 .image1{
@@ -371,23 +452,34 @@ a{
                 <div class="greenframe">
 <div class="row">
     <div class="col-md-6 col-sm-6">
-        <h3>Need Our support</h3>
+        <h2>Need Our support</h2>
     </div>
     <div class="col-md-6 col-sm-6">
-        <h3><i class="fas fa-phone-alt me-3"></i>+91 98765 43210</h3>
+        <h2><i class="fas fa-phone me-3"></i>+91 98765 43210</h2>
     </div>
 </div>
                     </div>
                     <style>
                         .greenframe{
                             background-color: #4CAF50;
-                            color:#FFFFFF;
+                            color:#FFFFFF !important;
                             text-align: center;
                             padding:2rem 0;
                             overflow-x:hidden;
                            
                         }
-
+                        .greenframe h2{
+                            font-size:3rem !important;
+                            color:#FFFFFF !important;
+                        }
+                        @media (max-width: 768px) {
+                            .cardframe h2 {
+    font-size: 43px;
+}
+.greenframe h2 {
+    font-size: 2rem !important;
+}
+                          }
                     </style>
                         <!-- frame 4 -->
       <!-- footer -->

@@ -497,14 +497,40 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
     </swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-    <swiper-slide>Slide 4</swiper-slide>
-    <swiper-slide>Slide 5</swiper-slide>
-    <swiper-slide>Slide 6</swiper-slide>
-    <swiper-slide>Slide 7</swiper-slide>
-    <swiper-slide>Slide 8</swiper-slide>
-    <swiper-slide>Slide 9</swiper-slide>
+    <swiper-slide>
+        <div class="row" style="width:100%">
+            <div class="col-md-6 col-sm-12" style="padding-right:0">
+            <img src="./image/slideimg1.webp" alt="slideimg1">
+            </div>
+            <div class="col-md-6 col-sm-12" id="centerdiv">
+<div class="slidecontent">
+    <h5>Jyothsna P S- Director</h5>
+    <p>BA, PGD in Print Media design & illustration with over 11yrs of experience. Started her career 
+        in Advertising and worked with clients in multiple sectors such as Retail, 
+        Publishing, F&B, Packaging design; and more. Currently handling the Corporate Insurance and HR verticals </p>
+</div>
+            </div>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <div class="row" style="width:100%">
+            <div class="col-md-6 col-sm-12" style="padding-right:0">
+            <img src="./image/slideimg1.webp" alt="slideimg1">
+            </div>
+            <div class="col-md-6 col-sm-12" id="centerdiv">
+<div class="slidecontent">
+    <h5>Vijayakumar K- Director</h5>
+    <p>Diploma in Electronics Communication Engineering with 23 years of experience. Started his 
+        career in manufacturing sector namely Salzer Electronics, Data Tech, shifted 
+        to Telecommunication sector working in major MNCs namely Nokia Siemens, 
+        Ericsson and Huawei. Currently leading the organization as Director 
+        handling operations and Industry Relations.
+    </p>
+</div>
+            </div>
+        </div>
+    </swiper-slide>
+   
   </swiper-container>
   <style>
     #centerdiv{
@@ -649,6 +675,17 @@ margin-top:1rem;
                             overflow-x:hidden;
                            
                         }
+                        .greenframe h2{
+                            font-size:3rem;
+                        }
+                        @media (max-width: 768px) {
+                            .cardframe h2 {
+    font-size: 43px;
+}
+.greenframe h2 {
+    font-size: 2rem;
+}
+                          }
                     </style>
                         <!-- frame 4 -->
       <!-- footer -->
