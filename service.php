@@ -27,12 +27,17 @@
 h2{
     font-size:52px !important;
     color:#002A5C !important;
-    margin:1rem 0 !important;
+    margin:2rem 0 1rem 0 !important;
 }
-h4{
-    font-size: 2.5rem;
+.left-column h4{
+    font-size: 2rem;
     color:#002A5C !important;
     margin:2rem 0 !important;
+}
+.right-column h4{
+    font-size: 2.5rem;
+    color:#002A5C !important;
+    margin:1rem 0 !important;
 }
 h5{
     font-size: 2.5rem;
@@ -464,7 +469,7 @@ a{
                             background-color: #4CAF50;
                             color:#FFFFFF !important;
                             text-align: center;
-                            padding:2rem 0;
+                            padding:1rem 0;
                             overflow-x:hidden;
                            
                         }
