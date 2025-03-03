@@ -8,7 +8,7 @@
     <style>
      
          #banner {
-    background: url(./image/service.webp) no-repeat center center;
+    background: url(./image/register.webp) no-repeat center center;
     background-size: cover; /* Ensures the image scales to cover the container */
     height: 325px;
     width: 100%; /* Ensures the banner spans the full width */
@@ -263,17 +263,17 @@ p{
       <div class="box1">
     <a href="#apprenticeship">
     <div class="horzcard1">
-           <h4>What is POSH Training? </h4>
+           <h4>Registrations </h4>
             </div>
     </a>  
     <a href="#naps">
     <div class="horzcard1">
-           <h4>Our POSH Services </h4>
+           <h4>Certifications</h4>
             </div>
     </a> 
     <a href="#nats">
     <div class="horzcard1">
-           <h4>Why Choose Vnet?</h4>
+           <h4>Industries we serve</h4>
             </div>
     </a> 
       </div>

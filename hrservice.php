@@ -8,7 +8,7 @@
     <style>
      
          #banner {
-    background: url(./image/service.webp) no-repeat center center;
+    background: url(./image/hrservice.webp) no-repeat center center;
     background-size: cover; /* Ensures the image scales to cover the container */
     height: 325px;
     width: 100%; /* Ensures the banner spans the full width */

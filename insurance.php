@@ -8,7 +8,7 @@
     <style>
      
          #banner {
-    background: url(./image/service.webp) no-repeat center center;
+    background: url(./image/insurance.webp) no-repeat center center;
     background-size: cover; /* Ensures the image scales to cover the container */
     height: 325px;
     width: 100%; /* Ensures the banner spans the full width */
@@ -121,7 +121,7 @@ p{
    
 <h2 id="apprenticeship">Protecting Your Business and Workforce with Comprehensive Coverage</h2>
 <p>At Vnet Professional Services, we understand that safeguarding your employees and business assets is crucial for sustainable growth. Our tailored corporate insurance solutions provide comprehensive coverage, ensuring peace of mind and financial security for organizations of all sizes. From employee health plans to workmen compensation and vehicle insurance, we’ve got you covered.</p>
-<h4>Our Corporate Insurance Offerings</h4>
+<h4 id="nats">Our Corporate Insurance Offerings</h4>
 <div class="row">
     <div class="col-md-6 col-sm-6">
 <h5><i class="fa fa-check"></i>Group Insurance
@@ -176,7 +176,7 @@ p{
     
 <img src="./image/insurance2.webp" alt="groupphoto" class="image">
 
-<h2 id="naps">Why Choose Vnet for Corporate Insurance?</h2>
+<h2>Why Choose Vnet for Corporate Insurance?</h2>
 
 <div class="row">
 <div class="col-md-6 col-sm-6">
@@ -207,7 +207,7 @@ p{
     
 <img src="./image/insurance3.webp" alt="groupphoto" class="image">
 
-<h2 id="nats">Benefits of Corporate Insurance</h2>
+<h2 >Benefits of Corporate Insurance</h2>
 
 <div class="row">
 <div class="col-md-12 col-sm-6">
@@ -227,7 +227,7 @@ p{
 
 </div>
 </div>
-<h2 id="nats">Download reference materials here</h2>
+<h2 >Download reference materials here</h2>
 <div class="row">
 <div class="col-md-4 col-sm-6">
 <a href="./image/sample.pdf" download>
@@ -241,19 +241,24 @@ p{
     </div>
     <div class="right-column">
       <div class="box1">
-    <a href="#apprenticeship">
+    <a href="#nats">
     <div class="horzcard1">
-           <h4>What is POSH Training? </h4>
+           <h4>Vehicle Insurance </h4>
             </div>
     </a>  
-    <a href="#naps">
+    <a href="#nats">
     <div class="horzcard1">
-           <h4>Our POSH Services </h4>
+           <h4>Health Insurance </h4>
             </div>
     </a> 
     <a href="#nats">
     <div class="horzcard1">
-           <h4>Why Choose Vnet?</h4>
+           <h4>Corporate Group Insurance</h4>
+            </div>
+    </a> 
+    <a href="#nats">
+    <div class="horzcard1">
+           <h4>Workmen Compensation</h4>
             </div>
     </a> 
       </div>

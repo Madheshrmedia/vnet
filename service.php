@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
          #banner {
-    background: url(./image/service.webp) no-repeat center center;
+    background: url(./image/apprenticeship.webp) no-repeat center center;
     background-size: cover; /* Ensures the image scales to cover the container */
     height: 325px;
     width: 100%; /* Ensures the banner spans the full width */
