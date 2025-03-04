@@ -38,13 +38,31 @@
         background: #4CAF50;
         color: white;
         margin-left: 30px;
-        border-radius: 5px;
+        border-radius: 30px;
+        font-size: 20px;
     }
 
     @media (max-width: 576px) {
         .header-logo {
             width: 100%;
             padding-bottom: 1rem;
+        }
+
+        .navbar-brand {
+            width: 80%;
+        }
+
+        .navbar {
+            padding: 0px !important;
+        }
+
+        .booknow-btn {
+            margin-left: 0px;
+            margin-bottom: 5px;
+        }
+
+        .ab-main {
+            font-size: 28px;
         }
     }
 </style>
@@ -90,27 +108,16 @@
                     <li class="nav-item mobile_dis">
                         <a class="nav-link" href="./contact.php">Contact us </a>
                     </li>
+                    <li class="nav-item mobile_dis">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
                 </ul>
                 <div class="d-flex header-cont align-items-center">
-                    <a href="https://www.facebook.com/p/Rainbow-Media-100077423194944/" target="_blank"
-                        class="contact-info form-inline d-flex">
-                        <img src="./image/fb.png" class="header-icon" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/rainbowmedia_digital/?igshid=ZDdkNTZiNTM%3D" target="_blank"
-                        class="contact-info form-inline d-flex">
-                        <img src="./image/ig.png" class="header-icon" alt="">
-                    </a>
-                    <a href="https://x.com/rmedia_digital?t=g6071ALXzJJGwoHnHE6rCA&s=08" target="_blank"
-                        class="contact-info form-inline d-flex">
-                        <img src="./image/x.png" class="header-icon" alt="">
-                    </a>
-                    <a href="https://www.linkedin.com/company/rainbow-media/" target="_blank"
-                        class="contact-info form-inline d-flex" style="border-right: 1px solid;">
-                        <img src="./image/lin.png" class="header-icon" alt="">
-                    </a>
 
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="booknow-btn">
-                        Get started
+
+                    <a href="tel:+919901920043" target="_blank" class="booknow-btn">
+                        <i class="fas fa-phone-square-alt"></i>
+                        +91 99019 20043
                     </a>
 
                 </div>

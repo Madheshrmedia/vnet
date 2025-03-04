@@ -357,6 +357,35 @@
         .fcta_img {
             width: 60px;
         }
+
+        .banner-section-ots {
+            margin: 3rem !important;
+        }
+
+        .mobots-mob {
+            display: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .banner-section-ots {
+                position: unset;
+                margin: auto !important;
+                margin-top: 350px !important;
+            }
+
+            .banner-cont-ots {
+                display: none;
+            }
+
+            .mobots-mob {
+                display: block;
+            }
+
+            .ts_img {
+                display: none !important;
+            }
+
+        }
     </style>
 </head>
 
@@ -428,8 +457,17 @@
     <!-- end aboutus overview -->
 
     <!-- Our top servicesur  -->
+
+    <div class="container-fluid mobots-mob">
+        <p class="mobots-cont">
+            Our top services
+        </p>
+        <h1 class="mobots-top-head">
+            Services Highlights
+        </h1>
+    </div>
     <div class="container-fluid">
-        <div class="banner-section-ots m-5">
+        <div class="banner-section-ots">
             <div class="banner-cont-ots">
                 <p class="ots-top-cont">
                     Our top services
@@ -519,7 +557,7 @@
     <!-- satis client -->
     <div class="container satis_client">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 mb-3">
 
                 <div class="swiper slider">
                     <div class="swiper-wrapper">
@@ -550,17 +588,7 @@
             </div>
             <div class="col-md-5">
                 <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="card card_brd">
-                            <div class="card-body d-flex align-items-center">
-                                <img src="./image/sas1.png" class="count_img" alt="best-institute">
-                                <div class="count_card ps-3">
-                                    <div id="counter" class="counter count_text"></div>
-                                    Satisfied <br> Clients
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-md-6 mb-4">
                         <div class="card card_brd">
                             <div class="card-body d-flex align-items-center">
@@ -579,6 +607,17 @@
                                 <div class="count_card ps-3">
                                     <div id="counter3" class="counter count_text"></div>
                                     Apprentices Registered
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card card_brd">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="./image/sas1.png" class="count_img" alt="best-institute">
+                                <div class="count_card ps-3">
+                                    <div id="counter" class="counter count_text"></div>
+                                    Satisfied Clients
                                 </div>
                             </div>
                         </div>
