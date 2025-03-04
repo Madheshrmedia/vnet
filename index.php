@@ -302,6 +302,61 @@
         .slick-arrow.slick-hidden {
             display: none;
         }
+
+        .testi_col {
+            /* background-color: #F5F5F5 !important; */
+            border-radius: 20px !important;
+            background-image: url("./image/tt_back.webp");
+            background-size: cover;
+        }
+
+        .testi_title {
+            color: #002A5C !important;
+        }
+
+        .testi_color {
+            color: #009688 !important;
+        }
+
+
+
+        .t_img {
+            width: 60px !important;
+        }
+
+        .ts_img {
+            width: 70px !important;
+        }
+
+        .testi_card {
+            background-color: #4CAF50 !important;
+            color: white !important;
+        }
+
+        .tspara {
+            text-align: left;
+        }
+
+        .tspara span {
+            font-size: 12px !important;
+        }
+
+        .tt_img {
+            width: 55px !important;
+        }
+
+        .test_carbdy {
+            text-align: left !important;
+        }
+
+        .fcta {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .fcta_img {
+            width: 60px;
+        }
     </style>
 </head>
 
@@ -548,30 +603,260 @@
         <!-- Swiper -->
         <div class="swiper partner_slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn1.gif" class="img-fluid"
                         alt="best institute near me">
                 </div>
                 <div class="swiper-slide my-auto"><img src="./image/partn2.png" class="img-fluid"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn3.png" class="img-fluid"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn4.png" class="img-fluid"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn5.png" class="img-fluid"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn1.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn6.png" class="img-fluid"
                         alt="best institute near me">
                 </div>
-
+                <div class="swiper-slide my-auto"><img src="./image/partn7.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn8.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn9.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn10.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn11.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn12.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn13.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
     </div>
     <!-- slider end -->
+
+
+    <!-- testimonial -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-10 mx-auto testi_col p-5 ">
+                <p class="testi_head">
+                    TESTIMONIAL
+                </p>
+                <h1 class="testi_title">
+                    Hear From Those <span class="testi_color">Who Trust Us</span>
+                </h1>
+
+                <div class="row">
+                    <div class="col-md-10">
+
+                        <div class="swiper slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            Vnet has been a game-changer for our organization. Their expertise in
+                                            Apprenticeship
+                                            compliance
+                                            is unparalleled! They have simplified our NAPS & NATS implementation,
+                                            ensuring we stay
+                                            compliant
+                                            while benefiting from government incentives.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t1.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara"> Mr.
+                                                Vasu <br> <span>Ennovi Mobility Solutions</span></p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            With Vnet’s guidance, we successfully onboarded apprentices through NAPS,
+                                            creating a skilled workforce while optimizing costs.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t2.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara"> Ms. Annapurna <br> <span>Sireesh Auto
+                                                    Private Limited</span></p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            Vnet's deep understanding of labor laws and apprenticeship programs has
+                                            greatly benefited our organization.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t3.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara"> Mr. Sathish <br> <span>TVS- Sirius Controls
+                                                    Pvt Ltd</span></p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            Implementing NAPS & NATS was made easy with Vnet’s structured approach and
+                                            expert assistance.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t4.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara"> Ms. Mamatha <br> <span>Big Bags
+                                                    International Pvt Ltd</span></p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            Vnet has provided us with expert guidance on apprenticeship schemes. Their
+                                            support has helped us stay compliant while building a strong, skilled
+                                            workforce through NAPS & NATS.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t5.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara"> Mr. Ramesh <br> <span>Grassroots BPO</span>
+                                            </p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            We were looking for a reliable partner to manage our apprenticeship
+                                            programs, and Vnet exceeded our expectations.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t6.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara">Mr. Umesh <br> <span>Hinduja Global
+                                                    Solutions</span>
+                                            </p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            The team at Vnet made our transition to NAPS & NATS incredibly smooth. Their
+                                            in-depth knowledge of HR regulations and compliance ensures our business
+                                            remains legally sound and efficient.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t7.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara">Mr. Xavier<br> <span>Sayyam Investments Pvt
+                                                    Ltd</span>
+                                            </p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            From apprenticeship implementation to HR statutory compliance, Vnet has been
+                                            an essential partner in our growth. Their structured solutions have helped
+                                            us optimize costs and workforce management with ease.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t8.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara">Mr. Poornesh<br> <span>Accutech</span>
+                                            </p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card mt-4 testi_card">
+                                        <div class="card-body test_carbdy m-3">
+                                            <img src="./image/tt1.png" class="tt_img" alt="best institute">
+                                            Vnet’s expert assistance in HR services and apprenticeship programs has
+                                            brought immense value to our company. Their guidance has streamlined our
+                                            processes, helping us maintain efficiency and compliance at every step.
+                                        </div>
+                                        <footer class="footer d-flex ps-3 m-3">
+                                            <img src="./image/t9.png" class="t_img" alt="best institute">
+                                            <p class="ps-3 my-auto tspara">Mr. Rambhilash<br> <span>Jayshree Spun
+                                                    Bound</span>
+                                            </p>
+
+                                            <img src="./image/ts1.png" class="ts_img mx-auto" alt="best institute">
+                                        </footer>
+                                        <hr class="mx-auto mb-5" width="90%">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
+
+
+    <!-- CTA -->
+    <div class="container-fluid fcta">
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <h1 class="text-center">Need Our Support</h1>
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-center"> <img src="./image/fcta.png" class="fcta_img" alt="best institute"> +91
+                    9901920043
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- end CTA -->
 
 
 
@@ -590,9 +875,11 @@
             slidesPerView: 5,
             spaceBetween: 30,
             freeMode: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 3000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
+                pauseOnMouseEnter: true, // Autoplay will pause on hover
             },
         });
 
@@ -621,6 +908,7 @@
             autoplay: {
                 delay: 6000, // 6 seconds interval
                 disableOnInteraction: false, // Keeps autoplay active after user interaction
+                pauseOnMouseEnter: true, // Autoplay will pause on hover
             },
         });
         var swiper = new Swiper(".mySwiper", {
@@ -630,6 +918,7 @@
             autoplay: {
                 delay: 3000, // 6 seconds interval
                 disableOnInteraction: false, // Keeps autoplay active after user interaction
+                pauseOnMouseEnter: true, // Autoplay will pause on hover
             },
             pagination: {
                 el: ".swiper-pagination",

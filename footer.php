@@ -4,7 +4,7 @@
 
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted pt-1">
+<footer class="text-center text-lg-start bg-body-tertiary text-muted ">
     <style>
         .follow-up-link img {
             width: 56px;
