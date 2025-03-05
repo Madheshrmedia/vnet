@@ -32,7 +32,8 @@
     margin: 2rem auto;
 }
 #frame1 img{
-    width:80%;
+    width:100%;
+    height:100%;
 }
 #frame1  h2,.cardframe h2,#founder h2,.coreframe h2{
     color: #002A5C;
@@ -204,6 +205,7 @@
     margin: 3rem auto;
 }
 #founder img{
+    height: 100%;
     width: 100%;
   
 }
@@ -296,13 +298,24 @@
         <div class="frame1content" id="frame2">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-            <img src="./image/certificate.webp" alt="certificate">
+            <img src="./image/certificates.webp" alt="certificate">
             </div>
             <div class="col-md-6 col-sm-6">
 <h5 style="text-transform: uppercase;">About Us</h5>
-<h2>Welcome to Vnet <span>Professional Services</span></h2>
-<p>At <span style="color:#5A5A5A;font-weight:bold">Vnet Professional Services Private Limited</span>, we believe education is the foundation for growth, innovation, and empowerment. Established with a vision to make education accessible and compliance hassle-free, Vnet has emerged as a trusted partner for individuals, institutions, and organizations seeking professional growth and streamlined processes.</p>
-<p>We specialize in <span style="color:#5A5A5A;font-weight:bold">Distance Education, Skill Development Programs, Apprenticeship Schemes, HR Compliance Services, Registrations & Certifications</span>, and much more. Our holistic approach ensures that we meet the diverse needs of our clients, paving the way for their success.</p>
+<h2>A trusted <span>Compliance Partner</span></h2>
+<p>Vnet Professional Services Private Limited is incorporated in January 2025 as a Startup from DPIIT under the Startup India initiative of Government of India. Vnet is an emerging consultancy and advisory firm specializing in helping businesses implement skill development programs under key government initiatives such as NAPS, NATS, PMKVY, and others, aimed at enhancing employability and entrepreneurship. Vnet also have expertise in obtaining various certifications, including ISO, SA, GOTS, and more, to help organizations maintain compliance with social, health, and safety standards. And also the services extend to comprehensive HR solutions, including payroll management, statutory compliance (PF, ESI, PT), recruitment & staffing solutions, POSH training and compliance services and corporate insurance offerings to protect both employees and businesses. Vnet is committed to promoting quality, sustainability, and social accountability across industries.</p>
+<h2>Vnet Professional Services Pvt Ltd: <span>An ISO 9001:2015 Certified Organization</span></h2>
+<p>Our rigorous processes, commitment to deliver quality services, and client satisfaction have enabled us to get accredited with this certification. This certification is an affirmation of our vision to deliver solutions that exceed expectations and foster lasting client success.</p>
+<span class="cardheading" style="color:#002A5C">This certification demonstrates our:</span>
+<ul>
+    <li>Proficiency in consistently meeting project requirements and adhering to service agreements through our well-established quality management protocols.
+    </li>
+    <li>Capacity to identify and mitigate risks and assure the integrity of deliverables.</li>
+     <li>Competence in designing efficient processes that translate into positive client experiences.
+     </li>
+     <li>Ability to monitor performance and results proactively and make continual improvements that benefit clients.
+     </li>
+</ul>
 </div>
         </div>
         </div>
@@ -481,8 +494,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <swiper-container class="mySwiper" navigation="true">
     <swiper-slide>
         <div class="row" style="width:100%">
-            <div class="col-md-6 col-sm-12" style="padding-right:0">
-            <img src="./image/slideimg1.webp" alt="slideimg1">
+            <div class="col-md-6 col-sm-12" style="padding-right:0" id="centerdiv">
+            <img src="./image/slideimgs1.webp" alt="slideimg1">
             </div>
             <div class="col-md-6 col-sm-12" id="centerdiv">
 <div class="slidecontent">
@@ -500,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <swiper-slide>
         <div class="row" style="width:100%">
             <div class="col-md-6 col-sm-12" style="padding-right:0">
-            <img src="./image/slideimg1.webp" alt="slideimg1">
+            <img src="./image/slideimgs2.webp" alt="slideimg1">
             </div>
             <div class="col-md-6 col-sm-12" id="centerdiv">
 <div class="slidecontent">
@@ -515,7 +528,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <swiper-slide>
         <div class="row" style="width:100%">
             <div class="col-md-6 col-sm-12" style="padding-right:0">
-            <img src="./image/slideimg1.webp" alt="slideimg1">
+            <img src="./image/slideimgs3.webp" alt="slideimg1">
             </div>
             <div class="col-md-6 col-sm-12" id="centerdiv">
 <div class="slidecontent">
