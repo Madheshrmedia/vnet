@@ -407,7 +407,7 @@
                 <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute" class="img-fluid"></div>
                 <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute" class="img-fluid"></div>
                 <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="./image/ban4.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban-6.webp" alt="best institute" class="img-fluid"></div>
                 <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute" class="img-fluid"></div>
             </div>
         </div>
