@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <swiper-container class="mySwiper" navigation="true">
     <swiper-slide>
         <div class="row" style="width:100%">
-            <div class="col-md-6 col-sm-12" style="padding-right:0" id="centerdiv">
+            <div class="col-md-6 col-sm-12" style="padding-right:0" >
             <img src="./image/slideimgs1.webp" alt="slideimg1">
             </div>
             <div class="col-md-6 col-sm-12" id="centerdiv">
@@ -512,8 +512,11 @@ document.addEventListener('DOMContentLoaded', () => {
     </swiper-slide>
     <swiper-slide>
         <div class="row" style="width:100%">
-            <div class="col-md-6 col-sm-12" style="padding-right:0">
-            <img src="./image/slideimgs2.webp" alt="slideimg1">
+            <div class="col-md-6 col-sm-12" style="padding-right:0" >
+                <div class="image">
+                <img src="./image/slideimgs2.webp" alt="slideimg1">
+                </div>
+            
             </div>
             <div class="col-md-6 col-sm-12" id="centerdiv">
 <div class="slidecontent">

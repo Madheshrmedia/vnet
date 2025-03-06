@@ -230,7 +230,7 @@ p{
 <h2 >Download reference materials here</h2>
 <div class="row">
 <div class="col-md-4 col-sm-6">
-<a href="./image/sample.pdf" download>
+<a href="./image/pos-pdf.pdf" download>
 <img src="./image/pos.webp" alt="pos">
 </a>
 

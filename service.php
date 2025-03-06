@@ -313,25 +313,25 @@ flexible option for career development or a pathway to switch industries. The <s
 <h2 id="nats">Download reference materials here</h2>
 <div class="row">
 <div class="col-md-4 col-sm-6">
-<a href="./image/sample.pdf" download>
+<a href="./image/faq-pdf.pdf" download>
 <img src="./image/faq.webp" alt="faq">
 </a>
 
 </div>
 <div class="col-md-4 col-sm-6">
-<a href="./image/sample.pdf" download>
+<a href="./image/Apprenticeship-pdf.pdf" download>
 <img src="./image/rule.webp" alt="faq">
 </a>
 </div>
 <div class="col-md-4 col-sm-6">
-<a href="./image/sample.pdf" download>
+<a href="./image/CSR-pdf.pdf" download>
 <img src="./image/csr.webp" alt="csr">
 </a>
 </div>
 </div>
 <div class="row">
 <div class="col-md-4 col-sm-6">
-<a href="./image/sample.pdf" download>
+<a href="./image/dbt-pdf.pdf" download>
 <img src="./image/dbt.webp" alt="dbt">
 </a>
 </div>
