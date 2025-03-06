@@ -31,7 +31,7 @@
         }
 
         .footer-content {
-            color: #FFFFFF;
+            color: #FFFFFF !important;
         }
 
         .UmBQi {
@@ -105,23 +105,21 @@
                         Useful Link
                     </h6>
                     <p class="footer-contenty">
-                        <a href="./service.php#SALON SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>About Us
+                        <a href="./about.php" class="text-reset"><i class="fas fa-chevron-right me-2 ic-ft"></i>About Us
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#SPA SERVICES" class="text-reset"><i
+                        <a href="./service.php" class="text-reset"><i
                                 class="fas fa-chevron-right me-2 ic-ft"></i>Services
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#SLIMMING SERVICES" class="text-reset"><i
+                        <a href="./contact.php" class="text-reset"><i
                                 class="fas fa-chevron-right me-2 ic-ft"></i>Contact Us
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#AESTHETIC SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>Home
+                        <a href="./index.php" class="text-reset"><i class="fas fa-chevron-right me-2 ic-ft"></i>Home
                         </a>
                     </p>
 
@@ -135,30 +133,31 @@
                         Service Menu
                     </h6>
                     <p class="footer-contenty">
-                        <a href="./service.php#SALON SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>Apprenticeship
+                        <a href="./service.php" class="text-reset"><i
+                                class="fas fa-chevron-right me-2 ic-ft"></i>Apprenticeship-NAPS & NATS
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#SPA SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>HR Services
+                        <a href="./hrservice.php" class="text-reset"><i class="fas fa-chevron-right me-2 ic-ft"></i>HR
+                            Services
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#SLIMMING SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>Certifications
+                        <a href="./register.php" class="text-reset"><i
+                                class="fas fa-chevron-right me-2 ic-ft"></i>Registrations & Certifications
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#AESTHETIC SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>Skill Development Schemes
+                        <a href="./posh.php" class="text-reset"><i class="fas fa-chevron-right me-2 ic-ft"></i>POSH
+                            Training & Compliance
                         </a>
                     </p>
                     <p class="footer-contenty">
-                        <a href="./service.php#AESTHETIC SERVICES" class="text-reset"><i
-                                class="fas fa-chevron-right me-2 ic-ft"></i>Corporate Insurance
+                        <a href="./insurance.php" class="text-reset"><i
+                                class="fas fa-chevron-right me-2 ic-ft"></i>Insurance
                         </a>
                     </p>
+
 
                     <style>
                         @media screen and (max-width:500px) {

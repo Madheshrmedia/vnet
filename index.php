@@ -441,7 +441,7 @@
 
                         <div class=" d-flex">
                             <div class="hab-btn">
-                                <button type="button" class="btn btn-outline-dark">Learn More &#8594;</button>
+                                <a href="./about.php" class="btn btn-outline-dark">Learn More &#8594;</a>
                             </div>
                             <!-- <a class="my-auto" href="#">Contact Us</a> -->
                             <div class="hab-card d-flex">
@@ -488,7 +488,7 @@
                                     <div class="card-body ots-cardbdy">
                                         <h5 class="card-title">Apprenticeship</h5>
                                         <p class="card-text ell_text">Implementation of NAPS & NATS</p>
-                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                        <a href="./service.php" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
@@ -501,7 +501,7 @@
                                         <p class="card-text ell_text">Payroll Management, PF & ESI
                                             Statutory Compliance
                                         </p>
-                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                        <a href="./hrservice.php" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
@@ -514,7 +514,7 @@
                                         <p class="card-text ell_text">Vehicle, Health & Corporate group insurance
                                             Workmen Compensation
                                         </p>
-                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                        <a href="./insurance.php" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
@@ -527,7 +527,7 @@
                                         <p class="card-text ell_text">ISO, SA, GOTS
                                             Labor License, Factory License & Others
                                         </p>
-                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                        <a href="./register.php" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>
@@ -541,7 +541,7 @@
                                             ICC Constitution and filing
 
                                         </p>
-                                        <a href="#" class="btn btn-outline-light">Learn More &#8594;</a>
+                                        <a href="./posh.php" class="btn btn-outline-light">Learn More &#8594;</a>
                                     </div>
                                 </div>
                             </div>

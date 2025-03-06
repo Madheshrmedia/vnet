@@ -42,6 +42,10 @@
         font-size: 20px;
     }
 
+    .dropdown-menu {
+        --bs-dropdown-link-active-bg: none !important;
+    }
+
     @media (max-width: 576px) {
         .header-logo {
             width: 100%;
@@ -97,11 +101,11 @@
                             Services
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Apprenticeship</a></li>
-                            <li><a class="dropdown-item" href="#">HR Services & Recruitment</a></li>
-                            <li><a class="dropdown-item" href="#">Registrations & Certifications</a></li>
-                            <li><a class="dropdown-item" href="#">Skill Development Schemes</a></li>
-                            <li><a class="dropdown-item" href="#">Corporate Insurance</a></li>
+                            <li><a class="dropdown-item" href="./service.php">Apprenticeship</a></li>
+                            <li><a class="dropdown-item" href="./hrservice.php">HR Services & Compliance</a></li>
+                            <li><a class="dropdown-item" href="./posh.php">POSH Training & Compliance</a></li>
+                            <li><a class="dropdown-item" href="./insurance.php">Insurance</a></li>
+                            <li><a class="dropdown-item" href="./register.php">Registrations & Certifications</a></li>
 
                         </ul>
                     </li>
