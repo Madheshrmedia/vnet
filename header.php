@@ -12,7 +12,20 @@
 <!-- count api -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.8/countUp.umd.js"></script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+
+
 <style>
+    * {
+        font-family: "Lato", sans-serif;
+    }
+
+
+
     .header-logo {
         width: 404px;
     }
@@ -46,6 +59,15 @@
         --bs-dropdown-link-active-bg: none !important;
     }
 
+    .fcta {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .fcta_img {
+        width: 60px;
+    }
+
     @media (max-width: 576px) {
         .header-logo {
             width: 100%;
@@ -68,6 +90,15 @@
         .ab-main {
             font-size: 28px;
         }
+
+        #banner {
+            height: 150px;
+        }
+
+        /* .h5,
+        h5 {
+            font-size: 18px !important;
+        } */
     }
 </style>
 <header class="header header-sticky" id="headerall">

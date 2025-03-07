@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/about.css">
-    <title>About</title>
+    <title>VNET PROFESSIONAL SERVICES</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.png">
 
     <style>
         #banner {
             background: url(./image/abtbanner.webp) no-repeat center center;
             background-size: cover;
-            /* Ensures the image scales to cover the container */
             height: 325px;
             width: 100%;
-            /* Ensures the banner spans the full width */
             margin-top: 2rem;
             border-radius: 20px;
             padding-left: 5rem;
             display: grid;
             align-items: center;
+        }
+
+        .breadcrumb-item.active,
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: white !important;
         }
 
         .breadcrumb-item a {
@@ -32,7 +36,6 @@
 
         #frame1 img {
             width: 100%;
-            height: 100%;
         }
 
         #frame1 h2,
@@ -325,6 +328,21 @@
             .greencard {
                 margin-top: 1rem;
             }
+
+            .slidecontent {
+                box-shadow: none !important;
+            }
+
+            #banner {
+                height: 150px;
+            }
+
+            #frame2 h2,
+            .cardframe h2,
+            #founder h2,
+            .coreframe h2 {
+                font-size: 28px;
+            }
         }
     </style>
 </head>
@@ -350,8 +368,8 @@
     <div class="container" id="frame1">
         <div class="frame1content" id="frame2">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <img src="./image/certificates.webp" alt="certificate">
+                <div class="col-md-6 col-sm-6 my-auto">
+                    <img src="./image/certificates.webp" class="my-auto" alt="certificate">
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <h5 style="text-transform: uppercase;">About Us</h5>
@@ -404,9 +422,12 @@
                         </svg>
                         <span class="cardheading">Our Vision:</span>
                     </div>
-                    <p>To empower individuals and organizations through accessible education, professional development,
-                        and compliance solutions, enabling them to achieve their goals and make a positive impact in the
-                        world.<span style="visibility:hidden">Lorem Lorem Lorem Lorem Lorem LoremLorem Lorem</span></p>
+                    <p class="pt-3">To be a leading provider of innovative consultancy in implementing Apprenticeship
+                        and skill
+                        development programs, comprehensive HR & recruitment solutions, empowering businesses to achieve
+                        excellence, compliance, and sustainability while fostering a skilled workforce for India's
+                        growing economy.<span style="visibility:hidden">Lorem Lorem Lorem Lorem Lorem LoremLorem
+                            Lorem</span></p>
 
                 </div>
 
@@ -422,147 +443,171 @@
                         <span class="cardheading">Our Mission: </span>
                     </div>
                     <ul>
-                        <li>To provide affordable and flexible distance education opportunities that cater to the
-                            diverse needs of learners.</li>
-                        <li>To bridge the gap between education and employment through innovative apprenticeship
-                            programs.</li>
+                        <p class="pt-3">
+                            To align with the Government’s goal of engaging 50 lakh skilled apprentices in the country,
+                            compared to the current number of 3.5 lakh apprentices, as part of its major HRD
+                            initiatives. To
+                            be a pioneer in providing expert consultation to MSMEs, helping them avail the benefits of
+                            the
+                            Government’s development initiatives and enabling workforce empowerment.
+                        </p>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- frame 3 -->
-    <div class="scroll-container">
-        <div class="cardcontainer">
-            <div class="horzcard">
-                <img src="./image/Companylogo1.png" alt="Companylogo1">
-            </div>
-            <div class="horzcard">
-                <img src="./image/Companylogo2.png" alt="Companylogo2">
-            </div>
-            <div class="horzcard">
-                <img src="./image/Companylogo3.png" alt="Companylogo3">
-            </div>
-            <div class="horzcard">
-                <img src="./image/Companylogo4.png" alt="Companylogo4">
-            </div>
-            <div class="horzcard">
-                <img src="./image/Companylogo5.png" alt="Companylogo5">
-            </div>
 
+
+
+    <div class="container my-5">
+        <!-- Swiper -->
+        <div class="swiper partner_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide my-auto"><img src="./image/partn1.gif" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn2.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn3.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn4.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn5.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn6.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn7.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn8.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn9.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn10.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn11.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn12.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+                <div class="swiper-slide my-auto"><img src="./image/partn13.png" class="img-fluid"
+                        alt="best institute near me">
+                </div>
+            </div>
         </div>
     </div>
-
-    <script>
-        function navigateToPage(pageUrl) {
-            window.location.href = pageUrl;
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const container = document.querySelector('.cardcontainer');
-
-            // Define scroll speed and interval
-            const scrollSpeed = 5; // Adjust scroll speed (higher value for faster scrolling)
-            const scrollInterval = 30; // Adjust scroll interval in milliseconds
-            let scrollDirection = 'right'; // Initial scroll direction
-
-            // Function to scroll container automatically
-            function autoScroll() {
-                if (scrollDirection === 'right') {
-                    container.scrollLeft += scrollSpeed;
-                    // Check if reached end of scroll
-                    if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
-                        scrollDirection = 'left';
-                    }
-                } else if (scrollDirection === 'left') {
-                    container.scrollLeft -= scrollSpeed;
-                    // Check if scrolled back to start
-                    if (container.scrollLeft <= 0) {
-                        scrollDirection = 'right';
-                    }
-                }
-            }
-
-            // Start auto-scrolling
-            let scrollIntervalId = setInterval(autoScroll, scrollInterval);
-
-            // Stop auto-scrolling when mouse enters container
-            container.addEventListener('mouseenter', () => {
-                clearInterval(scrollIntervalId);
-            });
-
-            // Resume auto-scrolling when mouse leaves container
-            container.addEventListener('mouseleave', () => {
-                scrollIntervalId = setInterval(autoScroll, scrollInterval);
-            });
-
-            // Optional: Stop auto-scrolling when clicking on a card
-            const cards = document.querySelectorAll('.horzcard');
-            cards.forEach(card => {
-                card.addEventListener('click', () => {
-                    clearInterval(scrollIntervalId);
-                });
-            });
-        });
-    </script>
     <!-- frame 4 -->
     <div class="container">
         <div class="cardframe">
             <h5 style="text-transform: uppercase;">Our core services</h5>
             <h2>What We <span>Offer</span></h2>
             <div class="row" id="cardrow">
-                <div class="col-md-3 col-sm-6 ">
-                    <div class="greencard">
-                        <h3>01</h3>
-                        <h4>Professional Services</h4>
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="greencard">
+                                <h3>01</h3>
+                                <h4>Implementation of NAPS & NATS</h4>
 
-                        <ul>
-                            <li>Partnering with top universities to offer a wide range of courses tailored for working
-                                professionals and stude</li>
-                            <li>Flexible schedules, affordable fee structures, and secure payment gateways to ensure a
-                                seamless learning experience</li>
-                        </ul>
-                    </div>
+                                <ul>
+                                    <li>Expert guidance on The Apprentices Act 1961, Apprenticeship Rules and
+                                        Regulations 1992
+                                        and all the recent reforms & compliances.
+                                    </li>
+                                    <li>End-to-end implementation solutions of Apprenticeship schemes NAPS & NATS
+                                        from
+                                        registration, contract generation, monthly payroll management and getting
+                                        the financial
+                                        benefits from ministry.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="greencard paddgreencard">
+                                <h3>02</h3>
+                                <h4>HR Services & Compliance</h4>
 
+                                <ul>
+                                    <li>Comprehensive HR services, including payroll management, PF & ESI and labor laws
+                                        compliance.
+                                    </li>
+                                    <li>Specialized recruitment and talent advisory services enabling the firms to build
+                                        strong
+                                        and highly qualified teams for a sustainable growth.
+                                    </li>
+                                </ul>
 
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="greencard">
+                                <h3>03</h3>
+                                <h4>POSH Training & Compliance</h4>
 
-                </div>
-                <div class="col-md-3 col-sm-6 ">
-                    <div class="greencard paddgreencard">
-                        <h3>02</h3>
-                        <h4>Professional Services</h4>
+                                <ul>
+                                    <li>Expert guidance on navigating the complexities of POSH compliance via drafting
+                                        POSH
+                                        policies, ICC formation, appointing external member and annual reports
+                                    </li>
+                                    <li>Tailored training solutions meticulously designed, addressing the specific needs
+                                        of
+                                        industry and organization.
 
-                        <ul>
-                            <li>Comprehensive HR services, including payroll management and compliance with statutory
-                                and labor laws</li>
-                            <li>Assistance with registrations and certifications such as Factory Licenses, ISO
-                                certifications, and more</li>
-                        </ul>
+                                    </li>
+                                </ul>
 
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 ">
-                    <div class="greencard">
-                        <h3>03</h3>
-                        <h4>Skill Development and Apprenticeship Programs</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="greencard paddgreencard">
+                                <h3>04</h3>
+                                <h4>Insurance</h4>
 
-                        <ul>
-                            <li>Enabling individuals to enhance their employability through government-backed
-                                initiatives like PMKVY, NAPS, and Samarth</li>
-                        </ul>
+                                <ul>
+                                    <li>One stop destination for all individual insurance needs like Life Insurance,
+                                        Health
+                                        Insurance, Motor Insurance, Travel Insurance, Marine Insurance, Commercial
+                                        Insurance,
+                                        Home & Property Insurance.
+                                    </li>
+                                    <li>Advanced technology platforms and digitization in availing all insurance
+                                        products for
+                                        individual and corporates with group insurance and workmen compensation.
 
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 ">
-                    <div class="greencard paddgreencard">
-                        <h3>04</h3>
-                        <h4>Corporate Insurance Solutions</h4>
+                                    </li>
+                                </ul>
 
-                        <ul>
-                            <li>Offering tailored group and health insurance solutions to protect businesses and their
-                                employees</li>
-                        </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="greencard">
+                                <h3>05</h3>
+                                <h4>Registrations & Certifications</h4>
 
+                                <ul>
+                                    <li>Expert consultation for applying quality management standards ISO, SA & GOTS
+                                        certifications.
+
+                                    </li>
+                                    <li>Registration and renewal of factory, boiler and labor licenses along with buyer
+                                        and
+                                        quality audits.
+
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -575,58 +620,79 @@
         <swiper-container class="mySwiper" navigation="true">
             <swiper-slide>
                 <div class="row" style="width:100%">
-                    <div class="col-md-6 col-sm-12" style="padding-right:0" id="centerdiv">
-                        <img src="./image/slideimgs1.webp" alt="slideimg1">
-                    </div>
-                    <div class="col-md-6 col-sm-12" id="centerdiv">
-                        <div class="slidecontent">
-                            <h5>Suresh Kumar S- Director</h5>
-                            <p>B.E, MSW holder with 21 years of experience. Started his career in Telecommunication
-                                sector working in
-                                major MNCs namely Nokia Siemens and Ericsson, shifted his interest in providing
-                                consultation in the
-                                Skill Development industry and provided consultations for United Nations Development
-                                Program (UNDP),
-                                CII (Confederation of Indian Industries), Electronics City Industries Association
-                                (ELCIA) and Skill
-                                development Entrepreneurship & Livelihood (SDEL), Government of Karnataka. Currently
-                                leading the organization
-                                as Director handling Business development, HR Compliance and Industry Relations.</p>
+                    <div class="col-md-11 mx-auto my-auto">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12" style="padding-right:0" id="centerdiv">
+                                <img src="./image/slideimgs1.webp" alt="slideimg1">
+                            </div>
+                            <div class="col-md-9 col-sm-12" id="centerdiv">
+                                <div class="slidecontent">
+                                    <h5>Suresh Kumar S- Director</h5>
+                                    <p>B.E, MSW holder with 21 years of experience. Started his career in
+                                        Telecommunication
+                                        sector working in
+                                        major MNCs namely Nokia Siemens and Ericsson, shifted his interest in providing
+                                        consultation in the
+                                        Skill Development industry and provided consultations for United Nations
+                                        Development
+                                        Program (UNDP),
+                                        CII (Confederation of Indian Industries), Electronics City Industries
+                                        Association
+                                        (ELCIA) and Skill
+                                        development Entrepreneurship & Livelihood (SDEL), Government of Karnataka.
+                                        Currently
+                                        leading the organization
+                                        as Director handling Business development, HR Compliance and Industry Relations.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="row" style="width:100%">
-                    <div class="col-md-6 col-sm-12" style="padding-right:0">
-                        <img src="./image/slideimgs2.webp" alt="slideimg1">
-                    </div>
-                    <div class="col-md-6 col-sm-12" id="centerdiv">
-                        <div class="slidecontent">
-                            <h5>Jyothsna P S- Director</h5>
-                            <p>BA, PGD in Print Media design & illustration with over 11yrs of experience. Started her
-                                career
-                                in Advertising and worked with clients in multiple sectors such as Retail,
-                                Publishing, F&B, Packaging design; and more. Currently handling the Corporate Insurance
-                                and HR verticals </p>
+                    <div class="col-md-11 mx-auto">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12" style="padding-right:0">
+                                <img src="./image/slideimgs2.webp" alt="slideimg1">
+                            </div>
+                            <div class="col-md-9 col-sm-12" id="centerdiv">
+                                <div class="slidecontent">
+                                    <h5>Jyothsna P S- Director</h5>
+                                    <p>BA, PGD in Print Media design & illustration with over 11yrs of experience.
+                                        Started
+                                        her
+                                        career
+                                        in Advertising and worked with clients in multiple sectors such as Retail,
+                                        Publishing, F&B, Packaging design; and more. Currently handling the Corporate
+                                        Insurance
+                                        and HR verticals </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="row" style="width:100%">
-                    <div class="col-md-6 col-sm-12" style="padding-right:0">
-                        <img src="./image/slideimgs3.webp" alt="slideimg1">
-                    </div>
-                    <div class="col-md-6 col-sm-12" id="centerdiv">
-                        <div class="slidecontent">
-                            <h5>Vijayakumar K- Director</h5>
-                            <p>Diploma in Electronics Communication Engineering with 23 years of experience. Started his
-                                career in manufacturing sector namely Salzer Electronics, Data Tech, shifted
-                                to Telecommunication sector working in major MNCs namely Nokia Siemens,
-                                Ericsson and Huawei. Currently leading the organization as Director
-                                handling operations and Industry Relations.
-                            </p>
+                    <div class="col-md-11 mx-auto">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12" style="padding-right:0">
+                                <img src="./image/slideimgs3.webp" alt="slideimg1">
+                            </div>
+                            <div class="col-md-9 col-sm-12" id="centerdiv">
+                                <div class="slidecontent">
+                                    <h5>Vijayakumar K- Director</h5>
+                                    <p>Diploma in Electronics Communication Engineering with 23 years of experience.
+                                        Started his
+                                        career in manufacturing sector namely Salzer Electronics, Data Tech, shifted
+                                        to Telecommunication sector working in major MNCs namely Nokia Siemens,
+                                        Ericsson and Huawei. Currently leading the organization as Director
+                                        handling operations and Industry Relations.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -808,5 +874,44 @@ margin-top:1rem;
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
 
+    <script>
+        // partner slider
+        var swiper = new Swiper(".partner_slider", {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            freeMode: true,
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 3000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
+                pauseOnMouseEnter: true, // Autoplay will pause on hover
+            },
+        });
+
+        var swiper = new Swiper(".slider", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 3000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
+                pauseOnMouseEnter: true, // Autoplay will pause on hover
+            },
+            breakpoints: {
+                // When the viewport is 768px or larger
+                768: {
+                    slidesPerView: 3, // Show 3 slides per view
+                },
+                // When the viewport is 576px or larger
+                576: {
+                    slidesPerView: 2, // Show 2 slides per view
+                },
+                // When the viewport is less than 576px (mobile devices)
+                0: {
+                    slidesPerView: 1, // Show 1 slide per view on mobile
+                }
+            }
+        });
+    </script>
 
 </html>

@@ -60,6 +60,10 @@
         .ser-menu {
             padding-left: 25px;
         }
+
+        .footer_para {
+            color: white !important;
+        }
     </style>
 
     <!-- Section: Links  -->
@@ -72,24 +76,22 @@
                     <!-- Content -->
                     <img src="./image/foot-logo.png" style="width:400px;" class="img-fluid" alt="">
                     <div class="footer-content">
-                        <p class="mt-5">
-                            We provide end-to-end solutions in education, HR, compliance, and skill development.
+                        <p class="mt-5 footer_para">
+                            We provide end-to-end solutions in implementation of NAPS & NATS apprenticeship program, HR
+                            Services & Compliance, Recruitment for IT/ITes sector, Implementation of Skill development
+                            schemes, Insurance services, POSH training & Compliance and Industry certifications.
                         </p>
                         <div class="footer-follow d-flex mt-4" id="footersocial">
-                            <a href="https://www.facebook.com/profile.php?id=61563851213696" target="_blank"
-                                class="follow-up-link me-2">
+                            <a href="#" class="follow-up-link me-2">
                                 <img src="./image/ft-fb.png" class="img-fluid" alt="">
                             </a>
-                            <a href="https://www.instagram.com/cogniwellness_tharamani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank" class="follow-up-link me-2">
+                            <!-- <a href="#" class="follow-up-link me-2">
                                 <img src="./image/ft-x.png" class="img-fluid" alt="">
-                            </a>
-                            <a href="https://www.instagram.com/cogniwellness_tharamani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank" class="follow-up-link me-2">
+                            </a> -->
+                            <a href="#" class="follow-up-link me-2">
                                 <img src="./image/li.png" class="img-fluid" alt="">
                             </a>
-                            <a href="https://www.instagram.com/cogniwellness_tharamani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank" class="follow-up-link me-2">
+                            <a href="#" class="follow-up-link me-2">
                                 <img src="./image/ft-ig.png" class="img-fluid" alt="">
                             </a>
 
@@ -175,12 +177,14 @@
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4 footer-heading">Contact</h6>
 
-                    <p class="footer-content"><i class="fas fa-home me-3"></i> 123 Business Park, City Name, State, PIN
-                        Code</p>
-                    <p class="footer-content"><i class="fas fa-phone-alt me-3"></i>+91 98765 43210</p>
+                    <p class="footer-content"><i class="fas fa-home me-3"></i> No-8, 2nd Floor, YRL B. Sardar Basha
+                        Tower, Hemavathi Block, Bettadasanapura, Electronic City Phase-1, Bangalore-560100</p>
+                    <p class="footer-content"><i class="fas fa-phone-alt me-3"></i>+91 - 9901920043, 8197241032</p>
                     <p class="footer-content">
                         <i class="fas fa-envelope me-3"></i>
-                        info@vnetproservices.com
+                        contact@vnetpro.in<br>
+                        director@vnetpro.in
+
                     </p>
 
 
