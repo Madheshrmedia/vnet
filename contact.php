@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/about.css">
-    <title>Contact</title>
+    <title>VNET PROFESSIONAL SERVICES</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -513,17 +514,20 @@
     </div>
 
     <!-- end contact frame -->
-    <!-- frame 4 -->
-    <div class="greenframe">
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <h2>Need Our support</h2>
+    <!-- CTA -->
+    <div class="container-fluid fcta">
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <h1 class="text-center">Need Our Support</h1>
             </div>
-            <div class="col-md-6 col-sm-6">
-                <h2><i class="fas fa-phone me-3"></i>+91 98765 43210</h2>
+            <div class="col-md-6">
+                <h1 class="text-center"> <img src="./image/fcta.png" class="fcta_img" alt="best institute"> +91
+                    9901920043
+                </h1>
             </div>
         </div>
     </div>
+    <!-- end CTA -->
     <style>
         .greenframe {
             background-color: #4CAF50;

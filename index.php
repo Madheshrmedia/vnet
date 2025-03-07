@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vnet</title>
+    <title>VNET PROFESSIONAL SERVICES</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="icon" type="image/x-icon" href="/image/favicon.png">
 
     <style>
         /* swiper js code */
@@ -366,11 +368,19 @@
             display: none;
         }
 
+        .brd_span {
+            display: block;
+        }
+
         @media only screen and (max-width: 600px) {
             .banner-section-ots {
                 position: unset;
                 margin: auto !important;
                 margin-top: 350px !important;
+            }
+
+            .brd_span {
+                display: none;
             }
 
             .banner-cont-ots {
@@ -430,13 +440,14 @@
                             Why Choose Us
                         </p>
                         <h1 class="ab-main">
-                            Where Wanderlust Meets <br>
-                            <span>Dream Destinations</span>
+                            One stop solutions
+                            <span>for all the industry compliances</span>
                         </h1>
                         <p class="ab-content mt-3">
-                            We are a leading consultancy offering a comprehensive range of <br> services including
-                            education
-                            guidance, HR compliance, certifications,<br> and skill development.
+                            We are leading consultancy offering a comprehensive range of services including
+                            implementation of NAPS, NATS & other Government Skill Development programs, HR Serves &
+                            Statutory compliances, Recruitment for IT/ITes sector, Insurance, POSH Compliance and
+                            Industry certifications
                         </p>
 
                         <div class=" d-flex">
@@ -588,7 +599,17 @@
             </div>
             <div class="col-md-5">
                 <div class="row">
-
+                    <div class="col-md-6 mb-4">
+                        <div class="card card_brd">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="./image/sas1.png" class="count_img" alt="best-institute">
+                                <div class="count_card ps-3">
+                                    <div id="counter" class="counter count_text"></div>
+                                    Satisfied <span class="brd_span"></span> Clients
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6 mb-4">
                         <div class="card card_brd">
                             <div class="card-body d-flex align-items-center">
@@ -611,17 +632,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="card card_brd">
-                            <div class="card-body d-flex align-items-center">
-                                <img src="./image/sas1.png" class="count_img" alt="best-institute">
-                                <div class="count_card ps-3">
-                                    <div id="counter" class="counter count_text"></div>
-                                    Satisfied Clients
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -935,7 +946,6 @@
 
         const counter3 = new countUp.CountUp('counter3', 6000, {
             duration: 4,
-            suffix: "+"  // Add "+" at the end of the count
         });
 
         if (!counter.error) counter.start();
