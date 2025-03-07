@@ -50,7 +50,7 @@
         padding: 8px 17px;
         background: #4CAF50;
         color: white;
-        margin-left: 30px;
+        margin-left: 25px;
         border-radius: 30px;
         font-size: 20px;
     }
@@ -66,6 +66,22 @@
 
     .fcta_img {
         width: 60px;
+    }
+
+    .call-img {
+        width: 60px;
+    }
+
+    .cl-btn {
+        text-decoration: none;
+        color: #4CAF50;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .cl-btn span {
+        font-size: 16px;
+        color: black;
     }
 
     @media (max-width: 576px) {
@@ -150,8 +166,14 @@
                 <div class="d-flex header-cont align-items-center">
 
 
-                    <a href="tel:+919901920043" target="_blank" class="booknow-btn">
+                    <!-- <a href="tel:+919901920043" target="_blank" class="booknow-btn">
                         <i class="fas fa-phone-square-alt"></i>
+                        +91 99019 20043
+                    </a> -->
+                    <img src="./image/cl-icon.png" class="call-img" alt="call icon">
+
+                    <a href="tel:+919901920043" class="cl-btn">
+                        <span>Need help?</span><br>
                         +91 99019 20043
                     </a>
 

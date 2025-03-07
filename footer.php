@@ -64,9 +64,32 @@
         .footer_para {
             color: white !important;
         }
+
+        .footer_heading {
+            font-size: 30px;
+        }
+
+        .fcta_img {
+            width: 40px;
+        }
     </style>
 
     <!-- Section: Links  -->
+    <!-- CTA -->
+    <div class="container-fluid fcta">
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <h1 class="text-center footer_heading">Need Our Support</h1>
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-center footer_heading"> <img src="./image/fcta.png" class="fcta_img"
+                        alt="best institute"> +91
+                    9901920043
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- end CTA -->
     <section class="footer-maincard pt-1">
         <div class="container text-center text-md-start mt-3">
             <!-- Grid row -->

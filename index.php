@@ -117,10 +117,9 @@
         }
 
         .banner-cont-ots {
-            padding-left: 125px;
-
+            padding-left: 100px;
             position: absolute;
-            margin-top: 75px;
+            margin-top: 30px;
             color: white;
         }
 
@@ -189,7 +188,7 @@
 
         .partus {
             color: #002A5C;
-            font-size: 48px;
+            font-size: 30px;
         }
 
         /* Slider */
@@ -314,6 +313,7 @@
 
         .testi_title {
             color: #002A5C !important;
+            font-size: 30px;
         }
 
         .testi_color {
@@ -324,6 +324,7 @@
 
         .t_img {
             width: 60px !important;
+            border-radius: 50px;
         }
 
         .ts_img {
@@ -356,9 +357,7 @@
             color: white;
         }
 
-        .fcta_img {
-            width: 60px;
-        }
+
 
         .banner-section-ots {
             margin: 3rem !important;
@@ -370,6 +369,26 @@
 
         .brd_span {
             display: block;
+        }
+
+        .ab-main {
+            font-size: 30px;
+        }
+
+        .ab-content {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .partner_slider {
+            margin-top: 30px;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+        }
+
+        .banner_img {
+            margin-top: 50px;
+            border-radius: 20px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -409,17 +428,24 @@
 
 
     <!-- banner -->
-    <div class="container-fluid banner_slider">
+    <div class="container banner_slider">
 
         <!-- Swiper -->
         <div class="swiper slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="./image/ban-6.webp" alt="best institute" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute"
+                        class="img-fluid banner_img"></div>
+                <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute"
+                        class="img-fluid banner_img"></div>
+                <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute"
+                        class="img-fluid banner_img"></div>
+                <div class="swiper-slide"><img src="./image/ban-6.webp" alt="best institute"
+                        class="img-fluid banner_img"></div>
+                <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute"
+                        class="img-fluid banner_img"></div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
     <!-- banner end -->
@@ -443,7 +469,7 @@
                             One stop solutions
                             <span>for all the industry compliances</span>
                         </h1>
-                        <p class="ab-content mt-3">
+                        <p class="ab-content ">
                             We are leading consultancy offering a comprehensive range of services including
                             implementation of NAPS, NATS & other Government Skill Development programs, HR Serves &
                             Statutory compliances, Recruitment for IT/ITes sector, Insurance, POSH Compliance and
@@ -457,7 +483,7 @@
                             <!-- <a class="my-auto" href="#">Contact Us</a> -->
                             <div class="hab-card d-flex">
                                 <img src="./image/hab-i.png" class="hab-img" alt="">
-                                <p class="hab-cont">Need help? <br><span>(808) 555-0111</span></p>
+                                <p class="hab-cont">Need help? <br><span>+91 99019 20043</span></p>
                             </div>
                         </div>
                     </div>
@@ -651,45 +677,45 @@
     <!-- slider -->
     <div class="container">
         <!-- Swiper -->
-        <div class="swiper partner_slider">
+        <div class="swiper partner_slider ">
             <div class="swiper-wrapper">
-                <div class="swiper-slide my-auto"><img src="./image/partn1.gif" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn1.gif" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn2.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn2.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn3.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn3.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn4.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn4.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn5.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn5.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn6.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn6.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn7.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn7.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn8.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn8.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn9.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn9.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn10.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn10.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn11.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn11.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn12.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn12.png" class="part_img"
                         alt="best institute near me">
                 </div>
-                <div class="swiper-slide my-auto"><img src="./image/partn13.png" class="img-fluid"
+                <div class="swiper-slide my-auto"><img src="./image/partn13.png" class="part_img"
                         alt="best institute near me">
                 </div>
             </div>
@@ -710,9 +736,9 @@
                 </h1>
 
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-12">
 
-                        <div class="swiper slider">
+                        <div class="swiper testimonial_slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="card mt-4 testi_card">
@@ -727,7 +753,7 @@
                                             while benefiting from government incentives.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t1.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara"> Mr.
                                                 Vasu <br> <span>Ennovi Mobility Solutions</span></p>
 
@@ -744,7 +770,7 @@
                                             creating a skilled workforce while optimizing costs.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t2.png" class="t_img" alt="best institute">
+                                            <img src="./image/femaleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara"> Ms. Annapurna <br> <span>Sireesh Auto
                                                     Private Limited</span></p>
 
@@ -761,7 +787,7 @@
                                             greatly benefited our organization.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t3.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara"> Mr. Sathish <br> <span>TVS- Sirius Controls
                                                     Pvt Ltd</span></p>
 
@@ -778,7 +804,7 @@
                                             expert assistance.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t4.png" class="t_img" alt="best institute">
+                                            <img src="./image/femaleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara"> Ms. Mamatha <br> <span>Big Bags
                                                     International Pvt Ltd</span></p>
 
@@ -796,7 +822,7 @@
                                             workforce through NAPS & NATS.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t5.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara"> Mr. Ramesh <br> <span>Grassroots BPO</span>
                                             </p>
 
@@ -813,7 +839,7 @@
                                             programs, and Vnet exceeded our expectations.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t6.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara">Mr. Umesh <br> <span>Hinduja Global
                                                     Solutions</span>
                                             </p>
@@ -832,7 +858,7 @@
                                             remains legally sound and efficient.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t7.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara">Mr. Xavier<br> <span>Sayyam Investments Pvt
                                                     Ltd</span>
                                             </p>
@@ -852,7 +878,7 @@
                                             us optimize costs and workforce management with ease.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t8.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara">Mr. Poornesh<br> <span>Accutech</span>
                                             </p>
 
@@ -870,7 +896,7 @@
                                             processes, helping us maintain efficiency and compliance at every step.
                                         </div>
                                         <footer class="footer d-flex ps-3 m-3">
-                                            <img src="./image/t9.png" class="t_img" alt="best institute">
+                                            <img src="./image/maleava.jpg" class="t_img" alt="best institute">
                                             <p class="ps-3 my-auto tspara">Mr. Rambhilash<br> <span>Jayshree Spun
                                                     Bound</span>
                                             </p>
@@ -893,20 +919,7 @@
     <!-- end testimonial -->
 
 
-    <!-- CTA -->
-    <div class="container-fluid fcta">
-        <div class="row pt-3">
-            <div class="col-md-6">
-                <h1 class="text-center">Need Our Support</h1>
-            </div>
-            <div class="col-md-6">
-                <h1 class="text-center"> <img src="./image/fcta.png" class="fcta_img" alt="best institute"> +91
-                    9901920043
-                </h1>
-            </div>
-        </div>
-    </div>
-    <!-- end CTA -->
+
 
 
 
@@ -922,7 +935,7 @@
 
         // partner slider
         var swiper = new Swiper(".partner_slider", {
-            slidesPerView: 5,
+            slidesPerView: 7,
             spaceBetween: 30,
             freeMode: true,
             loop: true, // Enable looping
@@ -932,20 +945,48 @@
                 pauseOnMouseEnter: true, // Autoplay will pause on hover
             },
         });
+        var swiper = new Swiper(".testimonial_slider", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 3000, // 6 seconds interval
+                disableOnInteraction: false, // Keeps autoplay active after user interaction
+                pauseOnMouseEnter: true, // Autoplay will pause on hover
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // When the viewport is 768px or larger
+                768: {
+                    slidesPerView: 2, // Show 3 slides per view
+                },
+                // When the viewport is 576px or larger
+                576: {
+                    slidesPerView: 2, // Show 2 slides per view
+                },
+                // When the viewport is less than 576px (mobile devices)
+                0: {
+                    slidesPerView: 1, // Show 1 slide per view on mobile
+                }
+            }
+        });
 
         // counter
         const counter = new countUp.CountUp('counter', 100, {
-            duration: 6,
+            duration: 30,
             suffix: "+"  // Add "+" at the end of the count
         });
 
         const counter2 = new countUp.CountUp('counter2', 10, {
-            duration: 8,
+            duration: 30,
             suffix: "+"  // Add "+" at the end of the count
         });
 
         const counter3 = new countUp.CountUp('counter3', 6000, {
-            duration: 4,
+            duration: 30,
         });
 
         if (!counter.error) counter.start();
@@ -958,6 +999,10 @@
                 delay: 6000, // 6 seconds interval
                 disableOnInteraction: false, // Keeps autoplay active after user interaction
                 pauseOnMouseEnter: true, // Autoplay will pause on hover
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
         var swiper = new Swiper(".mySwiper", {
