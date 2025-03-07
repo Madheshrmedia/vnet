@@ -40,7 +40,7 @@
         #founder h2,
         .coreframe h2 {
             color: #002A5C;
-            font-size: 52px;
+            font-size: 30px;
         }
 
         #frame1 h5,
@@ -349,12 +349,19 @@
     <!-- frame 1 -->
     <div class="container" id="frame1">
         <div class="frame1content" id="frame2">
+        <div class="row">
+        <div class="col-md-6 col-sm-6">
+        </div>
+        <div class="col-md-6 col-sm-6">
+        <h5 style="text-transform: uppercase;">About Us</h5>
+        </div>
+        </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <img src="./image/certificates.webp" alt="certificate">
+                    <img src="./image/certificates.webp" alt="certificate"  id="certificates">
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <h5 style="text-transform: uppercase;">About Us</h5>
+                  
                     <h2>A trusted <span>Compliance Partner</span></h2>
                     <p>Vnet Professional Services Private Limited is incorporated in January 2025 as a Startup from
                         DPIIT under the Startup India initiative of Government of India. Vnet is an emerging consultancy
@@ -367,6 +374,16 @@
                         staffing solutions, POSH training and compliance services and corporate insurance offerings to
                         protect both employees and businesses. Vnet is committed to promoting quality, sustainability,
                         and social accountability across industries.</p>
+                   
+                </div>
+            </div>
+            <div class="row" id="certificates1">
+                <div class="col-md-6 col-sm-6">
+                    <img src="./image/certificates1.webp" alt="certificate" >
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  
+                 
                     <h2>Vnet Professional Services Pvt Ltd: <span>An ISO 9001:2015 Certified Organization</span></h2>
                     <p>Our rigorous processes, commitment to deliver quality services, and client satisfaction have
                         enabled us to get accredited with this certification. This certification is an affirmation of
@@ -388,6 +405,17 @@
         </div>
 
     </div>
+  <style>
+     #certificates1 {
+        margin-top:1rem;
+    }
+    #certificates1 img{
+        width: 63%;
+    }
+    #certificates{
+        width:90%;
+    }
+  </style>
     <!-- frame 2 -->
 
     <div class="container">
