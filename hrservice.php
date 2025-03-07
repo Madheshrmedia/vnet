@@ -415,7 +415,7 @@
     <!-- frame 1 -->
     <!-- frame 4 -->
     <!-- CTA -->
-    <div class="container-fluid fcta">
+    <!-- <div class="container-fluid fcta">
         <div class="row pt-3">
             <div class="col-md-6">
                 <h1 class="text-center">Need Our Support</h1>
@@ -426,7 +426,7 @@
                 </h1>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end CTA -->
     <style>
         .greenframe {
