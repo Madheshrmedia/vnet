@@ -32,26 +32,26 @@
         }
 
         h2 {
-            font-size: 52px !important;
+            font-size: 30px !important;
             color: #002A5C !important;
             margin: 2rem 0 1rem 0 !important;
         }
 
         .left-column h4 {
-            font-size: 2rem;
-            color: #002A5C !important;
-            margin: 2rem 0 !important;
+            font-size: 1.4rem;
+    color: #002A5C !important;
+    margin: 2rem 0 0.8rem 0 !important;
         }
 
         .right-column h4 {
             font-size: 2.5rem;
             color: #002A5C !important;
-            margin: 1rem 0 !important;
+            margin:0 !important;
         }
 
         h5 {
             line-height: 30px !important;
-            font-size: 1.15rem !important;
+            font-size: 17px !important;
             color: #002A5C !important;
             margin: 1rem 0 !important;
         }
@@ -273,16 +273,19 @@
                 <a href="#nats">
                     <div class="horzcard1">
                         <h4>Vehicle Insurance </h4>
+                        <i class="fas fa-arrow-right"></i> 
                     </div>
                 </a>
                 <a href="#nats">
                     <div class="horzcard1">
                         <h4>Health Insurance </h4>
+                        <i class="fas fa-arrow-right"></i> 
                     </div>
                 </a>
                 <a href="#nats">
                     <div class="horzcard1">
                         <h4>Corporate Group Insurance</h4>
+                        <i class="fas fa-arrow-right"></i> 
                     </div>
                 </a>
                 <a href="#nats">
@@ -294,7 +297,7 @@
             <div class="box2">
                 <img src="./image/phone.png" alt="groupphoto">
                 <p>Get a Free Consultation</p>
-                <p>+91 98765 43210</p>
+                <p>+91 9901920043</p>
             </div>
         </div>
     </div>
@@ -314,7 +317,7 @@
         .box2 p {
             font-weight: 600;
             color: #FFFFFF !important;
-            font-size: 27px !important;
+            font-size: 20px !important;
         }
 
         .box2 img {
@@ -345,15 +348,12 @@
         }
 
         .right-column {
-            width: 370px;
+            padding-top: 20px;
+            width: 280px;
             position: sticky;
             top: 0;
-            /* Sticks to the top */
-            padding: 20px;
             height: 106vh;
-            /* Covers full viewport height */
             overflow-y: auto;
-            /* Enables scrolling if content overflows */
         }
 
         .image1 {
@@ -361,6 +361,9 @@
         }
 
         .horzcard1 {
+            display: flex;
+            align-items: center; 
+            justify-content: space-between;
             background-color: #FFFFFF;
             padding: 10px 18px;
             border: 1px solid #ddd;
@@ -370,13 +373,22 @@
             text-align: left;
             margin-top: 1rem;
         }
-
+        .horzcard1 i{
+            color: #034833;
+            border-radius: 10px;
+    background-color: #F1F5EB;
+    padding: 5px;
+        }
         .horzcard1:hover {
             transform: scale(1.05);
         }
+        .horzcard1:hover i {
+            color: #FFFFFF;
+    background-color: #4CAF50; 
+}
 
         .horzcard1 h4 {
-            font-size: 20px;
+            font-size: 17px;
         }
 
         a {

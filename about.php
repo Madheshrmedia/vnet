@@ -43,7 +43,7 @@
         #founder h2,
         .coreframe h2 {
             color: #002A5C;
-            font-size: 52px;
+            font-size: 30px;
         }
 
         #frame1 h5,
@@ -87,7 +87,7 @@
         .card {
             border: 1px solid #009688 !important;
             border-radius: 20px !important;
-            padding: 2rem;
+            padding: 1.2rem;
         }
 
         .cardframe {
@@ -365,14 +365,22 @@
         </div>
     </div>
     <!-- frame 1 -->
+  
     <div class="container" id="frame1">
         <div class="frame1content" id="frame2">
+        <div class="row">
+        <div class="col-md-6 col-sm-6">
+        </div>
+        <div class="col-md-6 col-sm-6">
+        <h5 style="text-transform: uppercase;">About Us</h5>
+        </div>
+        </div>
             <div class="row">
-                <div class="col-md-6 col-sm-6 my-auto">
-                    <img src="./image/certificates.webp" class="my-auto" alt="certificate">
+                <div class="col-md-6 col-sm-6">
+                    <img src="./image/certificates.webp" alt="certificate"  id="certificates">
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <h5 style="text-transform: uppercase;">About Us</h5>
+                  
                     <h2>A trusted <span>Compliance Partner</span></h2>
                     <p>Vnet Professional Services Private Limited is incorporated in January 2025 as a Startup from
                         DPIIT under the Startup India initiative of Government of India. Vnet is an emerging consultancy
@@ -385,6 +393,16 @@
                         staffing solutions, POSH training and compliance services and corporate insurance offerings to
                         protect both employees and businesses. Vnet is committed to promoting quality, sustainability,
                         and social accountability across industries.</p>
+                   
+                </div>
+            </div>
+            <div class="row" id="certificates1">
+                <div class="col-md-6 col-sm-6" style="text-align:center">
+                    <img src="./image/certificates1.webp" alt="certificate" >
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  
+                 
                     <h2>Vnet Professional Services Pvt Ltd: <span>An ISO 9001:2015 Certified Organization</span></h2>
                     <p>Our rigorous processes, commitment to deliver quality services, and client satisfaction have
                         enabled us to get accredited with this certification. This certification is an affirmation of
@@ -406,6 +424,18 @@
         </div>
 
     </div>
+  <style>
+     #certificates1 {
+        margin-top:1rem;
+    }
+    #certificates1 img{
+        width: 63%;
+    }
+    #certificates{
+        width:90%;
+    }
+  </style>
+
     <!-- frame 2 -->
 
     <div class="container">
@@ -422,7 +452,7 @@
                         </svg>
                         <span class="cardheading">Our Vision:</span>
                     </div>
-                    <p class="pt-3">To be a leading provider of innovative consultancy in implementing Apprenticeship
+                    <p class="para">To be a leading provider of innovative consultancy in implementing Apprenticeship
                         and skill
                         development programs, comprehensive HR & recruitment solutions, empowering businesses to achieve
                         excellence, compliance, and sustainability while fostering a skilled workforce for India's
@@ -442,8 +472,8 @@
                         </svg>
                         <span class="cardheading">Our Mission: </span>
                     </div>
-                    <ul>
-                        <p class="pt-3">
+                 
+                        <p class="para">
                             To align with the Government’s goal of engaging 50 lakh skilled apprentices in the country,
                             compared to the current number of 3.5 lakh apprentices, as part of its major HRD
                             initiatives. To
@@ -451,17 +481,24 @@
                             the
                             Government’s development initiatives and enabling workforce empowerment.
                         </p>
-                    </ul>
+                  
                 </div>
             </div>
         </div>
     </div>
+<style>
+    .para{
+        margin-top:1rem;
+        margin-bottom:0 !important;
+    }
+</style>
 
 
 
-    <div class="container my-5">
+        <div class="swipeslider">
         <!-- Swiper -->
-        <div class="swiper partner_slider">
+         <div class="container">
+         <div class="swiper partner_slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide my-auto"><img src="./image/partn1.gif" class="img-fluid"
                         alt="best institute near me">
@@ -504,7 +541,17 @@
                 </div>
             </div>
         </div>
+         </div>
+      
     </div>
+ 
+    <style>
+        .swipeslider{
+            border-top:1px solid #CBCBCB;
+            border-bottom:1px solid #CBCBCB;
+            margin:3rem 0;
+        }
+    </style>
     <!-- frame 4 -->
     <div class="container">
         <div class="cardframe">
@@ -621,11 +668,11 @@
             <swiper-slide>
                 <div class="row" style="width:100%">
                     <div class="col-md-11 mx-auto my-auto">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-12" style="padding-right:0" id="centerdiv">
+                        <div class="row rowimage" >
+                            <div class="col-md-2 col-sm-12" style="padding-right:0" id="centerdiv">
                                 <img src="./image/slideimgs1.webp" alt="slideimg1">
                             </div>
-                            <div class="col-md-9 col-sm-12" id="centerdiv">
+                            <div class="col-md-10 col-sm-12" id="centerdiv">
                                 <div class="slidecontent">
                                     <h5>Suresh Kumar S- Director</h5>
                                     <p>B.E, MSW holder with 21 years of experience. Started his career in
@@ -654,10 +701,10 @@
                 <div class="row" style="width:100%">
                     <div class="col-md-11 mx-auto">
                         <div class="row">
-                            <div class="col-md-3 col-sm-12" style="padding-right:0">
+                            <div class="col-md-2 col-sm-12" style="padding-right:0">
                                 <img src="./image/slideimgs2.webp" alt="slideimg1">
                             </div>
-                            <div class="col-md-9 col-sm-12" id="centerdiv">
+                            <div class="col-md-10 col-sm-12" id="centerdiv">
                                 <div class="slidecontent">
                                     <h5>Jyothsna P S- Director</h5>
                                     <p>BA, PGD in Print Media design & illustration with over 11yrs of experience.
@@ -678,10 +725,10 @@
                 <div class="row" style="width:100%">
                     <div class="col-md-11 mx-auto">
                         <div class="row">
-                            <div class="col-md-3 col-sm-12" style="padding-right:0">
+                            <div class="col-md-2 col-sm-12" style="padding-right:0">
                                 <img src="./image/slideimgs3.webp" alt="slideimg1">
                             </div>
-                            <div class="col-md-9 col-sm-12" id="centerdiv">
+                            <div class="col-md-10 col-sm-12" id="centerdiv">
                                 <div class="slidecontent">
                                     <h5>Vijayakumar K- Director</h5>
                                     <p>Diploma in Electronics Communication Engineering with 23 years of experience.
@@ -700,6 +747,10 @@
 
         </swiper-container>
         <style>
+            .rowimage{
+                padding-top:1rem;
+                padding-bottom:1rem;
+            }
             #centerdiv {
                 display: flex;
                 align-items: center;
@@ -729,7 +780,7 @@
             .slidecontent {
                 text-align: left;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                padding: 3rem;
+                padding: 2rem;
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
             }
@@ -792,7 +843,7 @@ margin-top:1rem;
                 <div class="col-md-6 col-sm-6">
                     <div class="horzcard1">
                         <h4>Accessibility</h4>
-                        <p>Making education and professional services available to all.</p>
+                        <p>Making MSMEs accessible to all the benefits via professional services</p>
                     </div>
                     <div class="horzcard1">
                         <h4>Integrity</h4>
@@ -877,7 +928,7 @@ margin-top:1rem;
     <script>
         // partner slider
         var swiper = new Swiper(".partner_slider", {
-            slidesPerView: 5,
+            slidesPerView: 7,
             spaceBetween: 30,
             freeMode: true,
             loop: true, // Enable looping
