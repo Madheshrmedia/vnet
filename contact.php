@@ -342,7 +342,6 @@
                                             <select name="service" id="service" class="form-control1">
                                                 <option value="Implementation of NAPS & NATS">Implementation of NAPS &
                                                     NATS</option>
-                                                <option value="Apprenticeship">Apprenticeship </option>
                                                 <option value="HR Services & Compliance">HR Services & Compliance
                                                 </option>
                                                 <option value="POSH Training & Compliance">POSH Training & Compliance

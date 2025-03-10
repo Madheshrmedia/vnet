@@ -125,7 +125,7 @@
 
         .slider-row {
             position: relative !important;
-            margin-top: -510px !important;
+            margin-top: -530px !important;
         }
 
         .ots-top-cont {
@@ -942,7 +942,7 @@
 
         // partner slider
         var swiper = new Swiper(".partner_slider", {
-            slidesPerView: 7,
+            slidesPerView: 8,
             spaceBetween: 30,
             freeMode: true,
             loop: true, // Enable looping

@@ -289,7 +289,7 @@
             }
 
             p {
-                font-size: 18px;
+                font-size: 16px;
             }
         }
 
@@ -341,8 +341,13 @@
             .cardframe h2,
             #founder h2,
             .coreframe h2 {
-                font-size: 28px;
+                margin-top: 1rem;
+                font-size: 23px;
             }
+            .swiper-button-next svg, .swiper-button-prev svg {
+    width: 43% !important;
+   
+}
         }
     </style>
 </head>
@@ -877,9 +882,24 @@ margin-top:1rem;
         #faq {
             margin-top: 3rem;
         }
+        @media (max-width: 576px) {
+            #founder img {
+    width: 75%;
+    padding: 0 2rem;
+}
+swiper-container {
+    margin: 1rem auto;
+}
+.coreframe {
+    margin-top: 1rem;
+}
+#founder {
+    margin: 1rem auto;
+}
+        }
     </style>
     <!-- frame 4 -->
-    <div class="greenframe">
+    <!-- <div class="greenframe">
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <h2>Need Our support</h2>
@@ -912,7 +932,7 @@ margin-top:1rem;
                 font-size: 2rem;
             }
         }
-    </style>
+    </style> -->
     <!-- frame 4 -->
     <!-- footer -->
     <?php
@@ -928,7 +948,7 @@ margin-top:1rem;
     <script>
         // partner slider
         var swiper = new Swiper(".partner_slider", {
-            slidesPerView: 7,
+            slidesPerView: 8,
             spaceBetween: 30,
             freeMode: true,
             loop: true, // Enable looping
