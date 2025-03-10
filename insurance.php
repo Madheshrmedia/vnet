@@ -39,14 +39,14 @@
 
         .left-column h4 {
             font-size: 1.4rem;
-    color: #002A5C !important;
-    margin: 2rem 0 0.8rem 0 !important;
+            color: #002A5C !important;
+            margin: 2rem 0 0.8rem 0 !important;
         }
 
         .right-column h4 {
             font-size: 2.5rem;
             color: #002A5C !important;
-            margin:0 !important;
+            margin: 0 !important;
         }
 
         h5 {
@@ -260,7 +260,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <a href="./image/pos-pdf.pdf" download>
-                            <img src="./image/pos.webp" alt="pos">
+                            <img src="./image/instu.webp" alt="pos">
                         </a>
 
                     </div>
@@ -273,19 +273,19 @@
                 <a href="#nats">
                     <div class="horzcard1">
                         <h4>Vehicle Insurance </h4>
-                        <i class="fas fa-arrow-right"></i> 
+                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
                 <a href="#nats">
                     <div class="horzcard1">
                         <h4>Health Insurance </h4>
-                        <i class="fas fa-arrow-right"></i> 
+                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
                 <a href="#nats">
                     <div class="horzcard1">
                         <h4>Corporate Group Insurance</h4>
-                        <i class="fas fa-arrow-right"></i> 
+                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
                 <a href="#nats">
@@ -362,7 +362,7 @@
 
         .horzcard1 {
             display: flex;
-            align-items: center; 
+            align-items: center;
             justify-content: space-between;
             background-color: #FFFFFF;
             padding: 10px 18px;
@@ -373,19 +373,22 @@
             text-align: left;
             margin-top: 1rem;
         }
-        .horzcard1 i{
+
+        .horzcard1 i {
             color: #034833;
             border-radius: 10px;
-    background-color: #F1F5EB;
-    padding: 5px;
+            background-color: #F1F5EB;
+            padding: 5px;
         }
+
         .horzcard1:hover {
             transform: scale(1.05);
         }
+
         .horzcard1:hover i {
             color: #FFFFFF;
-    background-color: #4CAF50; 
-}
+            background-color: #4CAF50;
+        }
 
         .horzcard1 h4 {
             font-size: 17px;
