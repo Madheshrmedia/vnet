@@ -38,7 +38,9 @@
             background-color: #fdfdfd !important;
         }
 
-
+        .footer_logo {
+            width: 200px;
+        }
 
         .text-reset {
             color: white !important;
@@ -95,11 +97,11 @@
             <!-- Grid row -->
             <div class="row mt-3">
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4 text-center">
                     <!-- Content -->
-                    <img src="./image/foot-logo.png" style="width:400px;" class="img-fluid" alt="">
-                    <div class="footer-content">
-                        <p class="mt-5 footer_para">
+                    <img src="./image/foot-logo.png" class="footer_logo" alt="">
+                    <div class="footer-content text-start">
+                        <p class="mt-3 footer_para">
                             We provide end-to-end solutions in implementation of NAPS & NATS apprenticeship program, HR
                             Services & Compliance, Recruitment for IT/ITes sector, Implementation of Skill development
                             schemes, Insurance services, POSH training & Compliance and Industry certifications.

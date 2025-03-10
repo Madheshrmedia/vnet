@@ -393,6 +393,11 @@
             border-radius: 20px;
         }
 
+        .ots_img {
+            height: 690px;
+            width: 100%;
+        }
+
         @media only screen and (max-width: 600px) {
             .banner-section-ots {
                 position: unset;
@@ -419,6 +424,10 @@
 
             .ts_img {
                 display: none !important;
+            }
+
+            .ots_img {
+                height: auto;
             }
 
         }
@@ -520,7 +529,7 @@
                     Services Highlights
                 </h1>
             </div>
-            <img src="./image/otb-bg.webp" class="img-fluid" alt="">
+            <img src="./image/otb-bg.webp" class="ots_img" alt="">
             <div class="row slider-row">
                 <div class="col-md-10 mx-auto">
                     <div class="swiper mySwiper">
