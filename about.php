@@ -1012,7 +1012,7 @@ swiper-container {
     <script>
         // partner slider
         var swiper = new Swiper(".partner_slider", {
-            slidesPerView: 7,
+            slidesPerView: 8,
             spaceBetween: 30,
             freeMode: true,
             loop: true, // Enable looping

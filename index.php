@@ -125,7 +125,7 @@
 
         .slider-row {
             position: relative !important;
-            margin-top: -510px !important;
+            margin-top: -530px !important;
         }
 
         .ots-top-cont {
@@ -179,7 +179,7 @@
 
         .count_img {
             width: 50px;
-            height: fit-content;
+            height: 50px;
         }
 
         .card_brd {
@@ -357,7 +357,9 @@
             color: white;
         }
 
-
+        .ots-top-head {
+            font-size: 30px;
+        }
 
         .banner-section-ots {
             margin: 3rem !important;
@@ -387,7 +389,7 @@
         }
 
         .banner_img {
-            margin-top: 50px;
+            margin-top: 30px;
             border-radius: 20px;
         }
 
@@ -396,6 +398,11 @@
                 position: unset;
                 margin: auto !important;
                 margin-top: 350px !important;
+            }
+
+            .hab-img {
+                width: 37px !important;
+                height: 37px !important;
             }
 
             .brd_span {
@@ -433,15 +440,15 @@
         <!-- Swiper -->
         <div class="swiper slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-1.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-2.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-3.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban-6.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-4.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-5.png" alt="best institute"
                         class="img-fluid banner_img"></div>
             </div>
             <div class="swiper-button-next"></div>
@@ -935,7 +942,7 @@
 
         // partner slider
         var swiper = new Swiper(".partner_slider", {
-            slidesPerView: 7,
+            slidesPerView: 8,
             spaceBetween: 30,
             freeMode: true,
             loop: true, // Enable looping
