@@ -179,7 +179,7 @@
 
         .count_img {
             width: 50px;
-            height: fit-content;
+            height: 50px;
         }
 
         .card_brd {
@@ -357,7 +357,9 @@
             color: white;
         }
 
-
+        .ots-top-head {
+            font-size: 30px;
+        }
 
         .banner-section-ots {
             margin: 3rem !important;
@@ -387,7 +389,7 @@
         }
 
         .banner_img {
-            margin-top: 50px;
+            margin-top: 30px;
             border-radius: 20px;
         }
 
@@ -396,6 +398,11 @@
                 position: unset;
                 margin: auto !important;
                 margin-top: 350px !important;
+            }
+
+            .hab-img {
+                width: 37px !important;
+                height: 37px !important;
             }
 
             .brd_span {
