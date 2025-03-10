@@ -195,8 +195,20 @@
                             -o-transition: all 0.3s ease-in-out;
                             transition: all 0.3s ease-in-out;
                         }
+                        .form-control1{
+                            width: 100%;
+                            height: 40px;
+                            background: #FFFFFF;
+                            border-color: #E3DBD8;
+                            border-radius: 30px;
+                            padding: 0 15px;
+                            -webkit-transition: all 0.3s ease-in-out;
+                            -moz-transition: all 0.3s ease-in-out;
+                            -o-transition: all 0.3s ease-in-out;
+                            transition: all 0.3s ease-in-out;
+                        }
 
-                        .form-control:focus {
+                        .form-control:focus,.form-control1:focus {
                             border-color: #00bcd9;
                             -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
                             -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
@@ -308,7 +320,8 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label for="service">Services Offered *</label>
-                                            <select name="service" id="service" class="form-control">
+            
+                                            <select name="service" id="service" class="form-control1">
                                                 <option value="Implementation of NAPS & NATS">Implementation of NAPS &
                                                     NATS</option>
                                                 <option value="Apprenticeship">Apprenticeship </option>
