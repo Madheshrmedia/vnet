@@ -91,7 +91,7 @@
             }
         }
 
-        @media (min-width: 768px) {
+        /* @media (min-width: 768px) {
 
             .container,
             .container-md,
@@ -99,7 +99,7 @@
                 max-width: 1250px !important;
             }
 
-        }
+        } */
 
         @media (mix-width: 576px) {
 

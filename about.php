@@ -289,7 +289,7 @@
             }
 
             p {
-                font-size: 18px;
+                font-size: 16px;
             }
         }
 
@@ -341,8 +341,13 @@
             .cardframe h2,
             #founder h2,
             .coreframe h2 {
-                font-size: 28px;
+                margin-top: 1rem;
+                font-size: 23px;
             }
+            .swiper-button-next svg, .swiper-button-prev svg {
+    width: 43% !important;
+   
+}
         }
     </style>
 </head>
@@ -664,7 +669,7 @@
     <div class="container" id="founder">
         <h5 style="text-transform: uppercase;">Meet Our Management</h5>
         <h2 style="width:80%"><span>Leaders Driving Excellence</span> at Vnet Professional Services</h2>
-        <swiper-container class="mySwiper" navigation="true">
+        <!-- <swiper-container class="mySwiper" navigation="true">
             <swiper-slide>
                 <div class="row" style="width:100%">
                     <div class="col-md-11 mx-auto my-auto">
@@ -745,7 +750,7 @@
                 </div>
             </swiper-slide>
 
-        </swiper-container>
+        </swiper-container> -->
         <style>
             .rowimage{
                 padding-top:1rem;
@@ -789,52 +794,150 @@
                 font-size: 15px;
             }
         </style>
-        <!-- <div class="row">
-           <div class="col-md-4 col-sm-6">
-           <img src="./image/photo.webp" alt="photo">
-           </div>
-           <div class="col-md-8 col-sm-6">
-<div class="row"  style="height:100% !important">
-<div class="col-md-12 col-sm-6">
-<div class="row"  id="bordergreen">
-<div class="col-md-8 col-sm-6" id="padtop">
-<h2>A Message from Our  <span>Founder</span></h2>
-<p>At Vnet Professional Services, we believe that education is the most powerful tool for change. Our mission is to create opportunities, break barriers, and empower individuals and organizations to reach new heights. We are proud to be a part of your journey and look forward to helping you succeed.</p>
-<span class="rightside">
-– [Founder Name], Founder & CEO, Vnet Professional Services
-</span>
-</div>
-<style>
-    .rightside{
-        text-align: right;
-        color:#4CAF50;
-    }
-    #bordergreen{
-        border: 1px solid #DCDCDC;
-        border-radius: 8px;
-    }
-    #padtop{
-        padding:2rem 0 0 2rem;
-    }
-    #greencardtop{
-margin-top:1rem;
-    }
-</style>
-<div class="col-md-4 col-sm-6">
-<img src="./image/frame.webp" alt="frame">
-</div>
-</div>
-</div>
-<div class="col-md-12 col-sm-6 greencard" id="greencardtop">
-<h4>Leadership at Vnet Professional Services</h4>
-<p>Our leadership team comprises seasoned professionals with years of expertise in education consultancy, HR services, and compliance management. With their vision and dedication, they have steered Vnet towards becoming a trusted partner for students and organizations alike.
-
-</p>
-</div>
-</div>
-</div>
-           </div> -->
+     
     </div>
+    <!-- frame 4 -->
+     <div class="container">
+     <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <div class="row" style="width:100%">
+                    <div class="col-md-11 mx-auto my-auto">
+                        <div class="row rowimage" >
+                            <div class="col-md-2 col-sm-12" style="padding-right:0" id="centerdiv">
+                                <img src="./image/slideimgs1.webp" alt="slideimg1">
+                            </div>
+                            <div class="col-md-10 col-sm-12" id="centerdiv">
+                                <div class="slidecontent">
+                                    <h5>Suresh Kumar S- Director</h5>
+                                    <p>B.E, MSW holder with 21 years of experience. Started his career in
+                                        Telecommunication
+                                        sector working in
+                                        major MNCs namely Nokia Siemens and Ericsson, shifted his interest in providing
+                                        consultation in the
+                                        Skill Development industry and provided consultations for United Nations
+                                        Development
+                                        Program (UNDP),
+                                        CII (Confederation of Indian Industries), Electronics City Industries
+                                        Association
+                                        (ELCIA) and Skill
+                                        development Entrepreneurship & Livelihood (SDEL), Government of Karnataka.
+                                        Currently
+                                        leading the organization
+                                        as Director handling Business development, HR Compliance and Industry Relations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="col-md-11 mx-auto">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12" style="padding-right:0">
+                                <img src="./image/slideimgs2.webp" alt="slideimg1">
+                            </div>
+                            <div class="col-md-10 col-sm-12" id="centerdiv">
+                                <div class="slidecontent">
+                                    <h5>Jyothsna P S- Director</h5>
+                                    <p>BA, PGD in Print Media design & illustration with over 11yrs of experience.
+                                        Started
+                                        her
+                                        career
+                                        in Advertising and worked with clients in multiple sectors such as Retail,
+                                        Publishing, F&B, Packaging design; and more. Currently handling the Corporate
+                                        Insurance
+                                        and HR verticals </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="col-md-11 mx-auto">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12" style="padding-right:0">
+                                <img src="./image/slideimgs3.webp" alt="slideimg1">
+                            </div>
+                            <div class="col-md-10 col-sm-12" id="centerdiv">
+                                <div class="slidecontent">
+                                    <h5>Vijayakumar K- Director</h5>
+                                    <p>Diploma in Electronics Communication Engineering with 23 years of experience.
+                                        Started his
+                                        career in manufacturing sector namely Salzer Electronics, Data Tech, shifted
+                                        to Telecommunication sector working in major MNCs namely Nokia Siemens,
+                                        Ericsson and Huawei. Currently leading the organization as Director
+                                        handling operations and Industry Relations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+   
+  </div>
+     </div>
+ 
+<style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media (max-width:576px) {
+        .swiper-slide img {
+            padding-left: 4rem;
+            width: 70%;   
+    }
+
+.slidecontent {
+padding:2rem 4rem;
+} 
+        
+    }
+  </style>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
     <!-- frame 4 -->
     <div class="container">
         <div class="coreframe">
@@ -877,43 +980,24 @@ margin-top:1rem;
         #faq {
             margin-top: 3rem;
         }
-    </style>
-    <!-- frame 4 -->
-    <div class="greenframe">
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <h2>Need Our support</h2>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <h2><i class="fas fa-phone-alt me-3"></i>+91 98765 43210</h2>
-            </div>
-        </div>
-    </div>
-    <style>
-        .greenframe {
-            background-color: #4CAF50;
-            color: #FFFFFF;
-            text-align: center;
-            padding: 2rem 0;
-            overflow-x: hidden;
-
-        }
-
-        .greenframe h2 {
-            font-size: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            .cardframe h2 {
-                font-size: 43px;
-            }
-
-            .greenframe h2 {
-                font-size: 2rem;
-            }
+        @media (max-width: 576px) {
+            #founder img {
+    width: 75%;
+    padding: 0 2rem;
+}
+swiper-container {
+    margin: 1rem auto;
+}
+.coreframe {
+    margin-top: 1rem;
+}
+#founder {
+    margin: 1rem auto;
+}
         }
     </style>
     <!-- frame 4 -->
+   
     <!-- footer -->
     <?php
     include_once "./footer.php";
