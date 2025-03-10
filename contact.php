@@ -98,28 +98,38 @@
         </style>
         <div class="container" id="centercontent_form">
 
-
-
-            <div class="row">
-                <div class="col-md-5 col-sm-12" id="contactimg">
-                    <div class="cardframe" style="visibility:hidden">
+        <div class="row">
+                <div class="col-md-5 col-sm-12" >
+                    
+                </div>
+                <div class="col-md-7 col-sm-12" id="contactimg">
+                <div class="cardframe" >
                         <h5 style="text-transform: uppercase;">CONTACT US</h5>
                         <h2>Get Started with <span> Vnet Professional Services</span></h2>
                     </div>
+                  
+                    </div>
+                    </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-12" id="contactimg">
+                    <!-- <div class="cardframe" style="visibility:hidden">
+                        <h5 style="text-transform: uppercase;">CONTACT US</h5>
+                        <h2>Get Started with <span> Vnet Professional Services</span></h2>
+                    </div> -->
                     <img src="./image/contactimg.webp" alt="contactimg">
                 </div>
                 <div class="col-md-7 col-sm-12" id="contactform">
-                    <div class="cardframe">
+                    <!-- <div class="cardframe">
                         <h5 style="text-transform: uppercase;">CONTACT US</h5>
                         <h2>Get Started with <span> Vnet Professional Services</span></h2>
-                    </div>
+                    </div> -->
 
 
                     <!-- ---------------- -->
                     <style>
                         .cardframe h2 {
                             color: #002A5C;
-                            font-size: 52px;
+                            font-size: 30px;
                         }
 
                         .cardframe span {
@@ -132,6 +142,7 @@
 
                         #contactimg img {
                             width: 100%;
+                            height: 100%;
                         }
 
                         .container {
@@ -141,7 +152,7 @@
 
                         h1 {
                             font-weight: 700;
-                            font-size: 45px;
+                            font-size: 30px;
                             font-family: 'Roboto', sans-serif;
                         }
 
@@ -154,7 +165,7 @@
                             background: #F1F5EB;
                             width: 100%;
                             max-width: 850px;
-                            padding: 50px;
+                            padding:30px 50px;
                             margin: 0 auto;
                             position: relative;
                             -webkit-border-radius: 10px;
@@ -164,17 +175,17 @@
                         }
 
                         .form-group {
-                            margin-bottom: 25px;
+                            margin-bottom: 12px;
                             text-align: left;
                         }
 
                         .form-group>label {
                             display: block;
-                            margin-bottom: 20px;
+                            margin-bottom: 6px;
                         }
 
                         .form-control {
-                            height: 50px;
+                            height: 40px;
                             background: #FFFFFF;
                             border-color: #E3DBD8;
                             border-radius: 30px;
@@ -193,7 +204,7 @@
                         }
 
                         textarea.form-control {
-                            height: 160px;
+                            height: 90px;
                             padding-top: 15px;
                             resize: none;
                         }
@@ -515,7 +526,7 @@
 
     <!-- end contact frame -->
     <!-- CTA -->
-    <div class="container-fluid fcta">
+    <!-- <div class="container-fluid fcta">
         <div class="row pt-3">
             <div class="col-md-6">
                 <h1 class="text-center">Need Our Support</h1>
@@ -526,7 +537,7 @@
                 </h1>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end CTA -->
     <style>
         .greenframe {
