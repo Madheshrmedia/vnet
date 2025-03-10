@@ -53,6 +53,22 @@
         #frame1 span {
             color: #009688;
         }
+
+        #service {
+            appearance: none;
+            /* Hides the default dropdown arrow */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>');
+            /* Custom arrow */
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            /* Adjust position */
+            background-size: 16px;
+            padding-right: 30px;
+            /* Adjust padding to avoid text overlap */
+            color: #585c5e;
+        }
     </style>
 </head>
 
@@ -98,18 +114,18 @@
         </style>
         <div class="container" id="centercontent_form">
 
-        <div class="row">
-                <div class="col-md-5 col-sm-12" >
-                    
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+
                 </div>
                 <div class="col-md-7 col-sm-12" id="contactimg">
-                <div class="cardframe" >
+                    <div class="cardframe">
                         <h5 style="text-transform: uppercase;">CONTACT US</h5>
                         <h2>Get Started with <span> Vnet Professional Services</span></h2>
                     </div>
-                  
-                    </div>
-                    </div>
+
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-5 col-sm-12" id="contactimg">
                     <!-- <div class="cardframe" style="visibility:hidden">
@@ -165,7 +181,7 @@
                             background: #F1F5EB;
                             width: 100%;
                             max-width: 850px;
-                            padding:30px 50px;
+                            padding: 30px 50px;
                             margin: 0 auto;
                             position: relative;
                             -webkit-border-radius: 10px;
@@ -195,7 +211,8 @@
                             -o-transition: all 0.3s ease-in-out;
                             transition: all 0.3s ease-in-out;
                         }
-                        .form-control1{
+
+                        .form-control1 {
                             width: 100%;
                             height: 40px;
                             background: #FFFFFF;
@@ -208,7 +225,8 @@
                             transition: all 0.3s ease-in-out;
                         }
 
-                        .form-control:focus,.form-control1:focus {
+                        .form-control:focus,
+                        .form-control1:focus {
                             border-color: #00bcd9;
                             -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
                             -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
@@ -320,7 +338,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label for="service">Services Offered *</label>
-            
+
                                             <select name="service" id="service" class="form-control1">
                                                 <option value="Implementation of NAPS & NATS">Implementation of NAPS &
                                                     NATS</option>
@@ -508,10 +526,16 @@
                 <div class="col-md-7 col-sm-12" id="contactform">
                     <div class="map-container">
 
-                        <iframe style="width:100%"
+                        <!-- <iframe style="width:100%"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124442.34398106135!2d77.51451445795041!3d12.919079063299051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6bfbc9d90b85%3A0x458d2211da69683a!2sVincerenet%20Solutions!5e0!3m2!1sen!2sin!4v1738732692960!5m2!1sen!2sin"
                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="50%"
-                            height="100%" style="border:0;height: 100%;" allowfullscreen="" loading="lazy"></iframe>
+                            height="100%" style="border:0;height: 100%;" allowfullscreen="" loading="lazy"></iframe> -->
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.984684386685!2d77.6348361!3d12.844265599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b0637a4b413%3A0xeaa942719531d21!2sVnet%20Professional%20Services%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1741585721690!5m2!1sen!2sin"
+                            width="50%" height="100%" style="border:0;height: 100%;width:100%" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <!-- ---------------- -->

@@ -433,15 +433,15 @@
         <!-- Swiper -->
         <div class="swiper slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./image/ban1.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-1.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban2.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-2.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban3.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-3.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban-6.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-4.png" alt="best institute"
                         class="img-fluid banner_img"></div>
-                <div class="swiper-slide"><img src="./image/ban5.webp" alt="best institute"
+                <div class="swiper-slide"><img src="./image/Vnet Website Banners-5.png" alt="best institute"
                         class="img-fluid banner_img"></div>
             </div>
             <div class="swiper-button-next"></div>
